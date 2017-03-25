@@ -166,15 +166,15 @@
             "values": [
                 {
                     "name": "Complete",
-                    "class": "label label-success"
+                    "class": "label-success"
                 },
                 {
                     "name": "Partially",
-                    "class": "label label-warning"
+                    "class": "label-warning"
                 },
                 {
                     "name": "No",
-                    "class": "label label-danger"
+                    "class": "label-danger"
                 }
             ]
         }
