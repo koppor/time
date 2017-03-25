@@ -1,87 +1,1548 @@
 [
   {
-    "tag": "Default 1 - http://default-1-entry.example.com",
-    "descr": "slow, MIT, red 1, grey",
-    "Performance": {
-      "plain": "- slow\n",
+    "tag": "Apache ActiveMQ - http://activemq.apache.org/",
+    "descr": "Apache ActiveMQ™ is the most popular and powerful open source messaging and Integration Patterns server.",
+    "Description": {
+      "plain": "Apache ActiveMQ™ is the most popular and powerful open source messaging and Integration Patterns server.\n\nApache ActiveMQ is fast, supports many Cross Language Clients and Protocols, comes with easy to use Enterprise Integration Patterns and many advanced features while fully supporting JMS 1.1 and J2EE 1.4. Apache ActiveMQ is released under the Apache 2.0 License",
+      "childs": {
+        "0": [
+          "Apache ActiveMQ™ is the most popular and powerful open source messaging and Integration Patterns server.",
+          "Apache ActiveMQ is fast, supports many Cross Language Clients and Protocols, comes with easy to use Enterprise Integration Patterns and many advanced features while fully supporting JMS 1.1 and J2EE 1.4. Apache ActiveMQ is released under the Apache 2.0 License"
+        ]
+      }
+    },
+    "License": {
+      "plain": "- Apache 2.0\n    - [@ActiveMQ]\n",
       "childs": {
         "0": [
           [
             {
-              "content": "slow",
-              "plain": "slow\n",
+              "content": "Apache 2.0",
+              "plain": "Apache 2.0\n",
+              "plainChilds": "    - [@ActiveMQ]\n",
+              "childs": [
+                {
+                  "content": ",[@ActiveMQ]",
+                  "plain": "[@ActiveMQ]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    "Development status": {
+      "plain": "- Active\n    - Last version: 5.14.4 on 2017-02-27 [@ActiveMQRepository]\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Active",
+              "plain": "Active\n",
+              "plainChilds": "    - Last version: 5.14.4 on 2017-02-27 [@ActiveMQRepository]\n",
+              "childs": [
+                {
+                  "content": "Last version: 5.14.4 on 2017-02-27 [@ActiveMQRepository]",
+                  "plain": "Last version: 5.14.4 on 2017-02-27 [@ActiveMQRepository]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    "Server Platforms": {
+      "plain": "- Windows\n    - [@activeMQServer]\n- Linux\n    - [@activeMQServer]\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Windows",
+              "plain": "Windows\n",
+              "plainChilds": "    - [@activeMQServer]\n",
+              "childs": [
+                {
+                  "content": ",[@activeMQServer]",
+                  "plain": "[@activeMQServer]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Linux",
+              "plain": "Linux\n",
+              "plainChilds": "    - [@activeMQServer]\n",
+              "childs": [
+                {
+                  "content": ",[@activeMQServer]",
+                  "plain": "[@activeMQServer]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    "Protocol": {
+      "plain": "- AMQP\n    - [@ActiveMQProtocols]\n- AUTO\n    - [@ActiveMQProtocols]\n- MQTT\n    - [@ActiveMQProtocols]\n- OpenWire\n    - [@ActiveMQProtocols]\n- REST\n    - [@ActiveMQProtocols]\n- RSS and Atom\n    - [@ActiveMQProtocols]\n- STOMP\n    - [@ActiveMQProtocols]\n- WSIF\n    - [@ActiveMQProtocols]\n- WS Notification\n    - [@ActiveMQProtocols]\n- XMPP\n    - [@ActiveMQProtocols]\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "AMQP",
+              "plain": "AMQP\n",
+              "plainChilds": "    - [@ActiveMQProtocols]\n",
+              "childs": [
+                {
+                  "content": ",[@ActiveMQProtocols]",
+                  "plain": "[@ActiveMQProtocols]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "AUTO",
+              "plain": "AUTO\n",
+              "plainChilds": "    - [@ActiveMQProtocols]\n",
+              "childs": [
+                {
+                  "content": ",[@ActiveMQProtocols]",
+                  "plain": "[@ActiveMQProtocols]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "MQTT",
+              "plain": "MQTT\n",
+              "plainChilds": "    - [@ActiveMQProtocols]\n",
+              "childs": [
+                {
+                  "content": ",[@ActiveMQProtocols]",
+                  "plain": "[@ActiveMQProtocols]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "OpenWire",
+              "plain": "OpenWire\n",
+              "plainChilds": "    - [@ActiveMQProtocols]\n",
+              "childs": [
+                {
+                  "content": ",[@ActiveMQProtocols]",
+                  "plain": "[@ActiveMQProtocols]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "REST",
+              "plain": "REST\n",
+              "plainChilds": "    - [@ActiveMQProtocols]\n",
+              "childs": [
+                {
+                  "content": ",[@ActiveMQProtocols]",
+                  "plain": "[@ActiveMQProtocols]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "RSS and Atom",
+              "plain": "RSS and Atom\n",
+              "plainChilds": "    - [@ActiveMQProtocols]\n",
+              "childs": [
+                {
+                  "content": ",[@ActiveMQProtocols]",
+                  "plain": "[@ActiveMQProtocols]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "STOMP",
+              "plain": "STOMP\n",
+              "plainChilds": "    - [@ActiveMQProtocols]\n",
+              "childs": [
+                {
+                  "content": ",[@ActiveMQProtocols]",
+                  "plain": "[@ActiveMQProtocols]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "WSIF",
+              "plain": "WSIF\n",
+              "plainChilds": "    - [@ActiveMQProtocols]\n",
+              "childs": [
+                {
+                  "content": ",[@ActiveMQProtocols]",
+                  "plain": "[@ActiveMQProtocols]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "WS Notification",
+              "plain": "WS Notification\n",
+              "plainChilds": "    - [@ActiveMQProtocols]\n",
+              "childs": [
+                {
+                  "content": ",[@ActiveMQProtocols]",
+                  "plain": "[@ActiveMQProtocols]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "XMPP",
+              "plain": "XMPP\n",
+              "plainChilds": "    - [@ActiveMQProtocols]\n",
+              "childs": [
+                {
+                  "content": ",[@ActiveMQProtocols]",
+                  "plain": "[@ActiveMQProtocols]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    "Client languages": {
+      "plain": "- .NET\n    - [@ActiveMQClients]\n- C++\n    - [@ActiveMQClients]\n- Erlang\n    - [@ActiveMQClients]\n- Go\n    - [@ActiveMQClients]\n- Haskell\n    - [@ActiveMQClients]\n- Java\n    - [@ActiveMQClients]\n- Jekejeke Prolog\n    - [@ActiveMQClients]\n- NetLogo\n    - [@ActiveMQClients]\n- Node.js\n    - [@ActiveMQClients]\n- Perl\n    - [@ActiveMQClients]\n- Pike\n    - [@ActiveMQClients]\n- Python\n    - [@ActiveMQClients]\n- Racket\n    - [@ActiveMQClients]\n- Ruby on Rails\n    - [@ActiveMQClients]\n- Tcl/Tk\n    - [@ActiveMQClients]\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": ".NET",
+              "plain": ".NET\n",
+              "plainChilds": "    - [@ActiveMQClients]\n",
+              "childs": [
+                {
+                  "content": ",[@ActiveMQClients]",
+                  "plain": "[@ActiveMQClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "C++",
+              "plain": "C++\n",
+              "plainChilds": "    - [@ActiveMQClients]\n",
+              "childs": [
+                {
+                  "content": ",[@ActiveMQClients]",
+                  "plain": "[@ActiveMQClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Erlang",
+              "plain": "Erlang\n",
+              "plainChilds": "    - [@ActiveMQClients]\n",
+              "childs": [
+                {
+                  "content": ",[@ActiveMQClients]",
+                  "plain": "[@ActiveMQClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Go",
+              "plain": "Go\n",
+              "plainChilds": "    - [@ActiveMQClients]\n",
+              "childs": [
+                {
+                  "content": ",[@ActiveMQClients]",
+                  "plain": "[@ActiveMQClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Haskell",
+              "plain": "Haskell\n",
+              "plainChilds": "    - [@ActiveMQClients]\n",
+              "childs": [
+                {
+                  "content": ",[@ActiveMQClients]",
+                  "plain": "[@ActiveMQClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Java",
+              "plain": "Java\n",
+              "plainChilds": "    - [@ActiveMQClients]\n",
+              "childs": [
+                {
+                  "content": ",[@ActiveMQClients]",
+                  "plain": "[@ActiveMQClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Jekejeke Prolog",
+              "plain": "Jekejeke Prolog\n",
+              "plainChilds": "    - [@ActiveMQClients]\n",
+              "childs": [
+                {
+                  "content": ",[@ActiveMQClients]",
+                  "plain": "[@ActiveMQClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "NetLogo",
+              "plain": "NetLogo\n",
+              "plainChilds": "    - [@ActiveMQClients]\n",
+              "childs": [
+                {
+                  "content": ",[@ActiveMQClients]",
+                  "plain": "[@ActiveMQClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Node.js",
+              "plain": "Node.js\n",
+              "plainChilds": "    - [@ActiveMQClients]\n",
+              "childs": [
+                {
+                  "content": ",[@ActiveMQClients]",
+                  "plain": "[@ActiveMQClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Perl",
+              "plain": "Perl\n",
+              "plainChilds": "    - [@ActiveMQClients]\n",
+              "childs": [
+                {
+                  "content": ",[@ActiveMQClients]",
+                  "plain": "[@ActiveMQClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Pike",
+              "plain": "Pike\n",
+              "plainChilds": "    - [@ActiveMQClients]\n",
+              "childs": [
+                {
+                  "content": ",[@ActiveMQClients]",
+                  "plain": "[@ActiveMQClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Python",
+              "plain": "Python\n",
+              "plainChilds": "    - [@ActiveMQClients]\n",
+              "childs": [
+                {
+                  "content": ",[@ActiveMQClients]",
+                  "plain": "[@ActiveMQClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Racket",
+              "plain": "Racket\n",
+              "plainChilds": "    - [@ActiveMQClients]\n",
+              "childs": [
+                {
+                  "content": ",[@ActiveMQClients]",
+                  "plain": "[@ActiveMQClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Ruby on Rails",
+              "plain": "Ruby on Rails\n",
+              "plainChilds": "    - [@ActiveMQClients]\n",
+              "childs": [
+                {
+                  "content": ",[@ActiveMQClients]",
+                  "plain": "[@ActiveMQClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Tcl/Tk",
+              "plain": "Tcl/Tk\n",
+              "plainChilds": "    - [@ActiveMQClients]\n",
+              "childs": [
+                {
+                  "content": ",[@ActiveMQClients]",
+                  "plain": "[@ActiveMQClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    "EAI-Pattern Support": {
+      "plain": "- Complete\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Complete",
+              "plain": "Complete\n",
               "plainChilds": "",
               "childs": []
             }
           ]
         ]
       }
+    }
+  },
+  {
+    "tag": "Apollo - http://activemq.apache.org/apollo/",
+    "descr": "ActiveMQ's next generation of messaging.",
+    "Description": {
+      "plain": "ActiveMQ Apollo is a faster, more reliable, easier to maintain messaging broker built from the foundations of the original ActiveMQ. It accomplishes this using a radically different threading and message dispatching architecture. Like ActiveMQ, Apollo is a multi-Protocol broker and supports STOMP, AMQP, MQTT, Openwire, SSL, and WebSockets.",
+      "childs": {
+        "0": [
+          "ActiveMQ Apollo is a faster, more reliable, easier to maintain messaging broker built from the foundations of the original ActiveMQ. It accomplishes this using a radically different threading and message dispatching architecture. Like ActiveMQ, Apollo is a multi-Protocol broker and supports STOMP, AMQP, MQTT, Openwire, SSL, and WebSockets."
+        ]
+      }
     },
     "License": {
-      "plain": "- MIT\n",
+      "plain": "- Apache 2.0\n    - [@Apollo]\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Apache 2.0",
+              "plain": "Apache 2.0\n",
+              "plainChilds": "    - [@Apollo]\n",
+              "childs": [
+                {
+                  "content": ",[@Apollo]",
+                  "plain": "[@Apollo]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    "Development status": {
+      "plain": "- Stale\n    - Last version: 1.7.1 on 2015-01-29 [@ApolloRepository]\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Stale",
+              "plain": "Stale\n",
+              "plainChilds": "    - Last version: 1.7.1 on 2015-01-29 [@ApolloRepository]\n",
+              "childs": [
+                {
+                  "content": "Last version: 1.7.1 on 2015-01-29 [@ApolloRepository]",
+                  "plain": "Last version: 1.7.1 on 2015-01-29 [@ApolloRepository]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    "Server Platforms": {
+      "plain": "- Windows\n    - [@apolloServer]\n- Linux\n    - [@apolloServer]\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Windows",
+              "plain": "Windows\n",
+              "plainChilds": "    - [@apolloServer]\n",
+              "childs": [
+                {
+                  "content": ",[@apolloServer]",
+                  "plain": "[@apolloServer]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Linux",
+              "plain": "Linux\n",
+              "plainChilds": "    - [@apolloServer]\n",
+              "childs": [
+                {
+                  "content": ",[@apolloServer]",
+                  "plain": "[@apolloServer]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    "Protocol": {
+      "plain": "- STOMP\n    - [@Apollo]\n- AMQP\n    - [@Apollo]\n- MQTT\n    - [@Apollo]\n- OpenWire\n    - [@Apollo]\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "STOMP",
+              "plain": "STOMP\n",
+              "plainChilds": "    - [@Apollo]\n",
+              "childs": [
+                {
+                  "content": ",[@Apollo]",
+                  "plain": "[@Apollo]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "AMQP",
+              "plain": "AMQP\n",
+              "plainChilds": "    - [@Apollo]\n",
+              "childs": [
+                {
+                  "content": ",[@Apollo]",
+                  "plain": "[@Apollo]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "MQTT",
+              "plain": "MQTT\n",
+              "plainChilds": "    - [@Apollo]\n",
+              "childs": [
+                {
+                  "content": ",[@Apollo]",
+                  "plain": "[@Apollo]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "OpenWire",
+              "plain": "OpenWire\n",
+              "plainChilds": "    - [@Apollo]\n",
+              "childs": [
+                {
+                  "content": ",[@Apollo]",
+                  "plain": "[@Apollo]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    "Client languages": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    }
+  },
+  {
+    "tag": "Beanstalkd - https://kr.github.io/beanstalkd/",
+    "descr": "Beanstalk is a simple, fast work queue.",
+    "Description": {
+      "plain": "Beanstalk is a simple, fast work queue.\n\nIts interface is generic, but was originally designed for reducing the latency of page views in high-volume web applications by running time-consuming tasks asynchronously.",
+      "childs": {
+        "0": [
+          "Beanstalk is a simple, fast work queue.",
+          "Its interface is generic, but was originally designed for reducing the latency of page views in high-volume web applications by running time-consuming tasks asynchronously."
+        ]
+      }
+    },
+    "License": {
+      "plain": "- MIT\n    - [@beanstalkdLicense]\n",
       "childs": {
         "0": [
           [
             {
               "content": "MIT",
               "plain": "MIT\n",
-              "plainChilds": "",
-              "childs": []
+              "plainChilds": "    - [@beanstalkdLicense]\n",
+              "childs": [
+                {
+                  "content": ",[@beanstalkdLicense]",
+                  "plain": "[@beanstalkdLicense]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
             }
           ]
         ]
       }
     },
-    "Showcase 2.0": {
-      "plain": "- red 1\n- grey\n",
+    "Development status": {
+      "plain": "- Stale\n    - Last version: 1.10 on 2014-08-05 [@beanstalkdRepository]\n",
       "childs": {
         "0": [
           [
             {
-              "content": "red 1",
-              "plain": "red 1\n",
-              "plainChilds": "",
-              "childs": []
-            },
-            {
-              "content": "grey",
-              "plain": "grey\n",
-              "plainChilds": "",
-              "childs": []
+              "content": "Stale",
+              "plain": "Stale\n",
+              "plainChilds": "    - Last version: 1.10 on 2014-08-05 [@beanstalkdRepository]\n",
+              "childs": [
+                {
+                  "content": "Last version: 1.10 on 2014-08-05 [@beanstalkdRepository]",
+                  "plain": "Last version: 1.10 on 2014-08-05 [@beanstalkdRepository]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
             }
           ]
         ]
       }
     },
-    "Description": {
-      "plain": "Default long description in __markdown__.",
+    "Server Platforms": {
+      "plain": "- Windows\n    - [@beanstalkdServer]\n- Linux\n    - 2.6.17 or later [@beanstalkdServer]\n- Mac OS X\n    - [@beanstalkdServer]\n- FreeBSD\n    - [@beanstalkdServer]\n",
       "childs": {
         "0": [
-          "Default long description in __markdown__."
+          [
+            {
+              "content": "Windows",
+              "plain": "Windows\n",
+              "plainChilds": "    - [@beanstalkdServer]\n",
+              "childs": [
+                {
+                  "content": ",[@beanstalkdServer]",
+                  "plain": "[@beanstalkdServer]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Linux",
+              "plain": "Linux\n",
+              "plainChilds": "    - 2.6.17 or later [@beanstalkdServer]\n",
+              "childs": [
+                {
+                  "content": "2.6.17 or later [@beanstalkdServer]",
+                  "plain": "2.6.17 or later [@beanstalkdServer]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Mac OS X",
+              "plain": "Mac OS X\n",
+              "plainChilds": "    - [@beanstalkdServer]\n",
+              "childs": [
+                {
+                  "content": ",[@beanstalkdServer]",
+                  "plain": "[@beanstalkdServer]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "FreeBSD",
+              "plain": "FreeBSD\n",
+              "plainChilds": "    - [@beanstalkdServer]\n",
+              "childs": [
+                {
+                  "content": ",[@beanstalkdServer]",
+                  "plain": "[@beanstalkdServer]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    "Protocol": {
+      "plain": "- Beanstalkd\n    - [@beanstalkdProtocols]\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Beanstalkd",
+              "plain": "Beanstalkd\n",
+              "plainChilds": "    - [@beanstalkdProtocols]\n",
+              "childs": [
+                {
+                  "content": ",[@beanstalkdProtocols]",
+                  "plain": "[@beanstalkdProtocols]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    "Client languages": {
+      "plain": "- .NET\n    - [@beanstalkdClients]\n- C\n    - [@beanstalkdClients]\n- C#\n    - [@beanstalkdClients]\n- C++\n    - [@beanstalkdClients]\n- Clojure\n    - [@beanstalkdClients]\n- Django\n    - [@beanstalkdClients]\n- Common Lisp\n    - [@beanstalkdClients]\n- Erlang\n    - [@beanstalkdClients]\n- Go\n    - [@beanstalkdClients]\n- Haskell\n    - [@beanstalkdClients]\n- Io\n    - [@beanstalkdClients]\n- Java\n    - [@beanstalkdClients]\n- Lua\n    - [@beanstalkdClients]\n- Nim\n    - [@beanstalkdClients]\n- Node.js\n    - [@beanstalkdClients]\n- OCaml\n    - [@beanstalkdClients]\n- Perl\n    - [@beanstalkdClients]\n- PHP\n    - [@beanstalkdClients]\n- Python\n    - [@beanstalkdClients]\n- Rails\n    - [@beanstalkdClients]\n- Ruby\n    - [@beanstalkdClients]\n- Rust\n    - [@beanstalkdClients]\n- Scheme\n    - [@beanstalkdClients]\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": ".NET",
+              "plain": ".NET\n",
+              "plainChilds": "    - [@beanstalkdClients]\n",
+              "childs": [
+                {
+                  "content": ",[@beanstalkdClients]",
+                  "plain": "[@beanstalkdClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "C",
+              "plain": "C\n",
+              "plainChilds": "    - [@beanstalkdClients]\n",
+              "childs": [
+                {
+                  "content": ",[@beanstalkdClients]",
+                  "plain": "[@beanstalkdClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "C#",
+              "plain": "C#\n",
+              "plainChilds": "    - [@beanstalkdClients]\n",
+              "childs": [
+                {
+                  "content": ",[@beanstalkdClients]",
+                  "plain": "[@beanstalkdClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "C++",
+              "plain": "C++\n",
+              "plainChilds": "    - [@beanstalkdClients]\n",
+              "childs": [
+                {
+                  "content": ",[@beanstalkdClients]",
+                  "plain": "[@beanstalkdClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Clojure",
+              "plain": "Clojure\n",
+              "plainChilds": "    - [@beanstalkdClients]\n",
+              "childs": [
+                {
+                  "content": ",[@beanstalkdClients]",
+                  "plain": "[@beanstalkdClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Django",
+              "plain": "Django\n",
+              "plainChilds": "    - [@beanstalkdClients]\n",
+              "childs": [
+                {
+                  "content": ",[@beanstalkdClients]",
+                  "plain": "[@beanstalkdClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Common Lisp",
+              "plain": "Common Lisp\n",
+              "plainChilds": "    - [@beanstalkdClients]\n",
+              "childs": [
+                {
+                  "content": ",[@beanstalkdClients]",
+                  "plain": "[@beanstalkdClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Erlang",
+              "plain": "Erlang\n",
+              "plainChilds": "    - [@beanstalkdClients]\n",
+              "childs": [
+                {
+                  "content": ",[@beanstalkdClients]",
+                  "plain": "[@beanstalkdClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Go",
+              "plain": "Go\n",
+              "plainChilds": "    - [@beanstalkdClients]\n",
+              "childs": [
+                {
+                  "content": ",[@beanstalkdClients]",
+                  "plain": "[@beanstalkdClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Haskell",
+              "plain": "Haskell\n",
+              "plainChilds": "    - [@beanstalkdClients]\n",
+              "childs": [
+                {
+                  "content": ",[@beanstalkdClients]",
+                  "plain": "[@beanstalkdClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Io",
+              "plain": "Io\n",
+              "plainChilds": "    - [@beanstalkdClients]\n",
+              "childs": [
+                {
+                  "content": ",[@beanstalkdClients]",
+                  "plain": "[@beanstalkdClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Java",
+              "plain": "Java\n",
+              "plainChilds": "    - [@beanstalkdClients]\n",
+              "childs": [
+                {
+                  "content": ",[@beanstalkdClients]",
+                  "plain": "[@beanstalkdClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Lua",
+              "plain": "Lua\n",
+              "plainChilds": "    - [@beanstalkdClients]\n",
+              "childs": [
+                {
+                  "content": ",[@beanstalkdClients]",
+                  "plain": "[@beanstalkdClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Nim",
+              "plain": "Nim\n",
+              "plainChilds": "    - [@beanstalkdClients]\n",
+              "childs": [
+                {
+                  "content": ",[@beanstalkdClients]",
+                  "plain": "[@beanstalkdClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Node.js",
+              "plain": "Node.js\n",
+              "plainChilds": "    - [@beanstalkdClients]\n",
+              "childs": [
+                {
+                  "content": ",[@beanstalkdClients]",
+                  "plain": "[@beanstalkdClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "OCaml",
+              "plain": "OCaml\n",
+              "plainChilds": "    - [@beanstalkdClients]\n",
+              "childs": [
+                {
+                  "content": ",[@beanstalkdClients]",
+                  "plain": "[@beanstalkdClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Perl",
+              "plain": "Perl\n",
+              "plainChilds": "    - [@beanstalkdClients]\n",
+              "childs": [
+                {
+                  "content": ",[@beanstalkdClients]",
+                  "plain": "[@beanstalkdClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "PHP",
+              "plain": "PHP\n",
+              "plainChilds": "    - [@beanstalkdClients]\n",
+              "childs": [
+                {
+                  "content": ",[@beanstalkdClients]",
+                  "plain": "[@beanstalkdClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Python",
+              "plain": "Python\n",
+              "plainChilds": "    - [@beanstalkdClients]\n",
+              "childs": [
+                {
+                  "content": ",[@beanstalkdClients]",
+                  "plain": "[@beanstalkdClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Rails",
+              "plain": "Rails\n",
+              "plainChilds": "    - [@beanstalkdClients]\n",
+              "childs": [
+                {
+                  "content": ",[@beanstalkdClients]",
+                  "plain": "[@beanstalkdClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Ruby",
+              "plain": "Ruby\n",
+              "plainChilds": "    - [@beanstalkdClients]\n",
+              "childs": [
+                {
+                  "content": ",[@beanstalkdClients]",
+                  "plain": "[@beanstalkdClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Rust",
+              "plain": "Rust\n",
+              "plainChilds": "    - [@beanstalkdClients]\n",
+              "childs": [
+                {
+                  "content": ",[@beanstalkdClients]",
+                  "plain": "[@beanstalkdClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Scheme",
+              "plain": "Scheme\n",
+              "plainChilds": "    - [@beanstalkdClients]\n",
+              "childs": [
+                {
+                  "content": ",[@beanstalkdClients]",
+                  "plain": "[@beanstalkdClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            }
+          ]
         ]
       }
     }
   },
   {
-    "tag": "Default 2 - http://default-2-entry.example.com",
-    "descr": "fast, Apache 2.0, red 2, green",
-    "Performance": {
-      "plain": "- fast\n",
+    "tag": "RabbitMQ - https://www.rabbitmq.com/",
+    "descr": "ActiveMQ's next generation of messaging.",
+    "Description": {
+      "plain": "ActiveMQ Apollo is a faster, more reliable, easier to maintain messaging broker built from the foundations of the original ActiveMQ. It accomplishes this using a radically different threading and message dispatching architecture. Like ActiveMQ, Apollo is a multi-Protocol broker and supports STOMP, AMQP, MQTT, Openwire, SSL, and WebSockets.",
+      "childs": {
+        "0": [
+          "ActiveMQ Apollo is a faster, more reliable, easier to maintain messaging broker built from the foundations of the original ActiveMQ. It accomplishes this using a radically different threading and message dispatching architecture. Like ActiveMQ, Apollo is a multi-Protocol broker and supports STOMP, AMQP, MQTT, Openwire, SSL, and WebSockets."
+        ]
+      }
+    },
+    "License": {
+      "plain": "- MPL 1.1\n    - [@rabbitMQLicense]\n",
       "childs": {
         "0": [
           [
             {
-              "content": "fast",
-              "plain": "fast\n",
-              "plainChilds": "",
-              "childs": []
+              "content": "MPL 1.1",
+              "plain": "MPL 1.1\n",
+              "plainChilds": "    - [@rabbitMQLicense]\n",
+              "childs": [
+                {
+                  "content": ",[@rabbitMQLicense]",
+                  "plain": "[@rabbitMQLicense]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
             }
           ]
         ]
       }
     },
+    "Development status": {
+      "plain": "- Active\n    - Last version: 3.7.0 Milestone 13 on 2017-02-22 [@rabbitMQRepository]\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Active",
+              "plain": "Active\n",
+              "plainChilds": "    - Last version: 3.7.0 Milestone 13 on 2017-02-22 [@rabbitMQRepository]\n",
+              "childs": [
+                {
+                  "content": "Last version: 3.7.0 Milestone 13 on 2017-02-22 [@rabbitMQRepository]",
+                  "plain": "Last version: 3.7.0 Milestone 13 on 2017-02-22 [@rabbitMQRepository]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    "Protocol": {
+      "plain": "- AMQP\n    - AMQP 0-9-1 [@rabbitMQProtocols]\n- STOMP\n    - [@rabbitMQProtocols]\n- MQTT\n    - [@rabbitMQProtocols]\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "AMQP",
+              "plain": "AMQP\n",
+              "plainChilds": "    - AMQP 0-9-1 [@rabbitMQProtocols]\n",
+              "childs": [
+                {
+                  "content": "AMQP 0-9-1 [@rabbitMQProtocols]",
+                  "plain": "AMQP 0-9-1 [@rabbitMQProtocols]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "STOMP",
+              "plain": "STOMP\n",
+              "plainChilds": "    - [@rabbitMQProtocols]\n",
+              "childs": [
+                {
+                  "content": ",[@rabbitMQProtocols]",
+                  "plain": "[@rabbitMQProtocols]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "MQTT",
+              "plain": "MQTT\n",
+              "plainChilds": "    - [@rabbitMQProtocols]\n",
+              "childs": [
+                {
+                  "content": ",[@rabbitMQProtocols]",
+                  "plain": "[@rabbitMQProtocols]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    "Server Platforms": {
+      "plain": "- Linux\n    - [@rabbitMQServer]\n- Windows\n    - [@rabbitMQServer]\n- Mac OS X\n    - [@rabbitMQServer]\n- Solaris\n    - [@rabbitMQServer]\n- FreeBSD\n    - [@rabbitMQServer]\n- TRU64\n    - [@rabbitMQServer]\n- VxWorks\n    - [@rabbitMQServer]\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Linux",
+              "plain": "Linux\n",
+              "plainChilds": "    - [@rabbitMQServer]\n",
+              "childs": [
+                {
+                  "content": ",[@rabbitMQServer]",
+                  "plain": "[@rabbitMQServer]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Windows",
+              "plain": "Windows\n",
+              "plainChilds": "    - [@rabbitMQServer]\n",
+              "childs": [
+                {
+                  "content": ",[@rabbitMQServer]",
+                  "plain": "[@rabbitMQServer]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Mac OS X",
+              "plain": "Mac OS X\n",
+              "plainChilds": "    - [@rabbitMQServer]\n",
+              "childs": [
+                {
+                  "content": ",[@rabbitMQServer]",
+                  "plain": "[@rabbitMQServer]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Solaris",
+              "plain": "Solaris\n",
+              "plainChilds": "    - [@rabbitMQServer]\n",
+              "childs": [
+                {
+                  "content": ",[@rabbitMQServer]",
+                  "plain": "[@rabbitMQServer]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "FreeBSD",
+              "plain": "FreeBSD\n",
+              "plainChilds": "    - [@rabbitMQServer]\n",
+              "childs": [
+                {
+                  "content": ",[@rabbitMQServer]",
+                  "plain": "[@rabbitMQServer]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "TRU64",
+              "plain": "TRU64\n",
+              "plainChilds": "    - [@rabbitMQServer]\n",
+              "childs": [
+                {
+                  "content": ",[@rabbitMQServer]",
+                  "plain": "[@rabbitMQServer]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "VxWorks",
+              "plain": "VxWorks\n",
+              "plainChilds": "    - [@rabbitMQServer]\n",
+              "childs": [
+                {
+                  "content": ",[@rabbitMQServer]",
+                  "plain": "[@rabbitMQServer]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    "Client languages": {
+      "plain": "- .NET\n    - [@rabbitMQClients]\n- C\n    - [@rabbitMQClients]\n- C++\n    - [@rabbitMQClients]\n- Clojure\n    - [@rabbitMQClients]\n- Erlang\n    - [@rabbitMQClients]\n- Go\n    - [@rabbitMQClients]\n- Groovy\n    - [@rabbitMQClients]\n- Grails\n    - [@rabbitMQClients]\n- Haskell\n    - [@rabbitMQClients]\n- Java\n    - [@rabbitMQClients]\n- JRuby\n    - [@rabbitMQClients]\n- Node.js\n    - [@rabbitMQClients]\n- Objective C\n    - [@rabbitMQClients]\n- OCaml\n    - [@rabbitMQClients]\n- Perl\n    - [@rabbitMQClients]\n- PHP\n    - [@rabbitMQClients]\n- Python\n    - [@rabbitMQClients]\n- Ruby\n    - [@rabbitMQClients]\n- Scala\n    - [@rabbitMQClients]\n- Swift\n    - [@rabbitMQClients]\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": ".NET",
+              "plain": ".NET\n",
+              "plainChilds": "    - [@rabbitMQClients]\n",
+              "childs": [
+                {
+                  "content": ",[@rabbitMQClients]",
+                  "plain": "[@rabbitMQClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "C",
+              "plain": "C\n",
+              "plainChilds": "    - [@rabbitMQClients]\n",
+              "childs": [
+                {
+                  "content": ",[@rabbitMQClients]",
+                  "plain": "[@rabbitMQClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "C++",
+              "plain": "C++\n",
+              "plainChilds": "    - [@rabbitMQClients]\n",
+              "childs": [
+                {
+                  "content": ",[@rabbitMQClients]",
+                  "plain": "[@rabbitMQClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Clojure",
+              "plain": "Clojure\n",
+              "plainChilds": "    - [@rabbitMQClients]\n",
+              "childs": [
+                {
+                  "content": ",[@rabbitMQClients]",
+                  "plain": "[@rabbitMQClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Erlang",
+              "plain": "Erlang\n",
+              "plainChilds": "    - [@rabbitMQClients]\n",
+              "childs": [
+                {
+                  "content": ",[@rabbitMQClients]",
+                  "plain": "[@rabbitMQClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Go",
+              "plain": "Go\n",
+              "plainChilds": "    - [@rabbitMQClients]\n",
+              "childs": [
+                {
+                  "content": ",[@rabbitMQClients]",
+                  "plain": "[@rabbitMQClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Groovy",
+              "plain": "Groovy\n",
+              "plainChilds": "    - [@rabbitMQClients]\n",
+              "childs": [
+                {
+                  "content": ",[@rabbitMQClients]",
+                  "plain": "[@rabbitMQClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Grails",
+              "plain": "Grails\n",
+              "plainChilds": "    - [@rabbitMQClients]\n",
+              "childs": [
+                {
+                  "content": ",[@rabbitMQClients]",
+                  "plain": "[@rabbitMQClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Haskell",
+              "plain": "Haskell\n",
+              "plainChilds": "    - [@rabbitMQClients]\n",
+              "childs": [
+                {
+                  "content": ",[@rabbitMQClients]",
+                  "plain": "[@rabbitMQClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Java",
+              "plain": "Java\n",
+              "plainChilds": "    - [@rabbitMQClients]\n",
+              "childs": [
+                {
+                  "content": ",[@rabbitMQClients]",
+                  "plain": "[@rabbitMQClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "JRuby",
+              "plain": "JRuby\n",
+              "plainChilds": "    - [@rabbitMQClients]\n",
+              "childs": [
+                {
+                  "content": ",[@rabbitMQClients]",
+                  "plain": "[@rabbitMQClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Node.js",
+              "plain": "Node.js\n",
+              "plainChilds": "    - [@rabbitMQClients]\n",
+              "childs": [
+                {
+                  "content": ",[@rabbitMQClients]",
+                  "plain": "[@rabbitMQClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Objective C",
+              "plain": "Objective C\n",
+              "plainChilds": "    - [@rabbitMQClients]\n",
+              "childs": [
+                {
+                  "content": ",[@rabbitMQClients]",
+                  "plain": "[@rabbitMQClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "OCaml",
+              "plain": "OCaml\n",
+              "plainChilds": "    - [@rabbitMQClients]\n",
+              "childs": [
+                {
+                  "content": ",[@rabbitMQClients]",
+                  "plain": "[@rabbitMQClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Perl",
+              "plain": "Perl\n",
+              "plainChilds": "    - [@rabbitMQClients]\n",
+              "childs": [
+                {
+                  "content": ",[@rabbitMQClients]",
+                  "plain": "[@rabbitMQClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "PHP",
+              "plain": "PHP\n",
+              "plainChilds": "    - [@rabbitMQClients]\n",
+              "childs": [
+                {
+                  "content": ",[@rabbitMQClients]",
+                  "plain": "[@rabbitMQClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Python",
+              "plain": "Python\n",
+              "plainChilds": "    - [@rabbitMQClients]\n",
+              "childs": [
+                {
+                  "content": ",[@rabbitMQClients]",
+                  "plain": "[@rabbitMQClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Ruby",
+              "plain": "Ruby\n",
+              "plainChilds": "    - [@rabbitMQClients]\n",
+              "childs": [
+                {
+                  "content": ",[@rabbitMQClients]",
+                  "plain": "[@rabbitMQClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Scala",
+              "plain": "Scala\n",
+              "plainChilds": "    - [@rabbitMQClients]\n",
+              "childs": [
+                {
+                  "content": ",[@rabbitMQClients]",
+                  "plain": "[@rabbitMQClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Swift",
+              "plain": "Swift\n",
+              "plainChilds": "    - [@rabbitMQClients]\n",
+              "childs": [
+                {
+                  "content": ",[@rabbitMQClients]",
+                  "plain": "[@rabbitMQClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "tag": "Template - http://www.loremipsum.de/index_e.html",
+    "descr": "Lorem ipsum",
+    "Description": {
+      "plain": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "childs": {
+        "0": [
+          "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+        ]
+      }
+    },
     "License": {
-      "plain": "- Apache 2.0\n",
+      "plain": "- Apache 2.0\n- BSD-3-Clause\n- MIT\n- Commercial\n",
       "childs": {
         "0": [
           [
@@ -90,208 +1551,13 @@
               "plain": "Apache 2.0\n",
               "plainChilds": "",
               "childs": []
-            }
-          ]
-        ]
-      }
-    },
-    "Showcase 2.0": {
-      "plain": "- red 2\n- green\n",
-      "childs": {
-        "0": [
-          [
+            },
             {
-              "content": "red 2",
-              "plain": "red 2\n",
+              "content": "BSD-3-Clause",
+              "plain": "BSD-3-Clause\n",
               "plainChilds": "",
               "childs": []
             },
-            {
-              "content": "green",
-              "plain": "green\n",
-              "plainChilds": "",
-              "childs": []
-            }
-          ]
-        ]
-      }
-    },
-    "Description": {
-      "plain": "Default long description in __markdown__.",
-      "childs": {
-        "0": [
-          "Default long description in __markdown__."
-        ]
-      }
-    }
-  },
-  {
-    "tag": "Default 3 - http://default-3-entry.example.com",
-    "descr": "fast, MPL 2.0, red 1, red 2, light blue",
-    "Performance": {
-      "plain": "- fast\n",
-      "childs": {
-        "0": [
-          [
-            {
-              "content": "fast",
-              "plain": "fast\n",
-              "plainChilds": "",
-              "childs": []
-            }
-          ]
-        ]
-      }
-    },
-    "License": {
-      "plain": "- MPL 2.0\n",
-      "childs": {
-        "0": [
-          [
-            {
-              "content": "MPL 2.0",
-              "plain": "MPL 2.0\n",
-              "plainChilds": "",
-              "childs": []
-            }
-          ]
-        ]
-      }
-    },
-    "Showcase 2.0": {
-      "plain": "- red 1\n- red 2\n- light blue\n",
-      "childs": {
-        "0": [
-          [
-            {
-              "content": "red 1",
-              "plain": "red 1\n",
-              "plainChilds": "",
-              "childs": []
-            },
-            {
-              "content": "red 2",
-              "plain": "red 2\n",
-              "plainChilds": "",
-              "childs": []
-            },
-            {
-              "content": "light blue",
-              "plain": "light blue\n",
-              "plainChilds": "",
-              "childs": []
-            }
-          ]
-        ]
-      }
-    },
-    "Description": {
-      "plain": "Default long description in __markdown__.",
-      "childs": {
-        "0": [
-          "Default long description in __markdown__."
-        ]
-      }
-    }
-  },
-  {
-    "tag": "Default 4 - http://default-4-entry.example.com",
-    "descr": "slow, MIT, green, green, grey",
-    "Performance": {
-      "plain": "- slow\n",
-      "childs": {
-        "0": [
-          [
-            {
-              "content": "slow",
-              "plain": "slow\n",
-              "plainChilds": "",
-              "childs": []
-            }
-          ]
-        ]
-      }
-    },
-    "License": {
-      "plain": "- MIT\n",
-      "childs": {
-        "0": [
-          [
-            {
-              "content": "MIT",
-              "plain": "MIT\n",
-              "plainChilds": "",
-              "childs": []
-            }
-          ]
-        ]
-      }
-    },
-    "Showcase 2.0": {
-      "plain": "- green\n- green\n- grey\n",
-      "childs": {
-        "0": [
-          [
-            {
-              "content": "green",
-              "plain": "green\n",
-              "plainChilds": "",
-              "childs": []
-            },
-            {
-              "content": "green",
-              "plain": "green\n",
-              "plainChilds": "",
-              "childs": []
-            },
-            {
-              "content": "grey",
-              "plain": "grey\n",
-              "plainChilds": "",
-              "childs": []
-            }
-          ]
-        ]
-      }
-    },
-    "Description": {
-      "plain": "Default long description in __markdown__.",
-      "childs": {
-        "0": [
-          "Default long description in __markdown__."
-        ]
-      }
-    }
-  },
-  {
-    "tag": "Template - http://www.example.com",
-    "descr": "Default short description (with bibkey: [@esper-reference])",
-    "Performance": {
-      "plain": "- slow\n- fast\n",
-      "childs": {
-        "0": [
-          [
-            {
-              "content": "slow",
-              "plain": "slow\n",
-              "plainChilds": "",
-              "childs": []
-            },
-            {
-              "content": "fast",
-              "plain": "fast\n",
-              "plainChilds": "",
-              "childs": []
-            }
-          ]
-        ]
-      }
-    },
-    "License": {
-      "plain": "- MIT\n- Apache 2.0\n- MPL 2.0\n",
-      "childs": {
-        "0": [
-          [
             {
               "content": "MIT",
               "plain": "MIT\n",
@@ -299,14 +1565,8 @@
               "childs": []
             },
             {
-              "content": "Apache 2.0",
-              "plain": "Apache 2.0\n",
-              "plainChilds": "",
-              "childs": []
-            },
-            {
-              "content": "MPL 2.0",
-              "plain": "MPL 2.0\n",
+              "content": "Commercial",
+              "plain": "Commercial\n",
               "plainChilds": "",
               "childs": []
             }
@@ -314,71 +1574,94 @@
         ]
       }
     },
-    "Showcase 2.0": {
-      "plain": "- red 1\n- red 2\n- green\n    - [@eckertThesisCEP]\n- yellow\n    - yellow property\n- dark blue\n    - [@eckertThesisCEP]\n- grey\n- light blue\n",
+    "Server Platforms": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    },
+    "Client languages": {
+      "plain": "- .NET\n- C#\n- Go\n- Java\n- Lisp\n- MySQL\n- NodeJs\n- Perl\n- PHP\n- PostgreSQL\n- Ruby\n- Python\n- Shell\n",
       "childs": {
         "0": [
           [
             {
-              "content": "red 1",
-              "plain": "red 1\n",
+              "content": ".NET",
+              "plain": ".NET\n",
               "plainChilds": "",
               "childs": []
             },
             {
-              "content": "red 2",
-              "plain": "red 2\n",
+              "content": "C#",
+              "plain": "C#\n",
               "plainChilds": "",
               "childs": []
             },
             {
-              "content": "green",
-              "plain": "green\n",
-              "plainChilds": "    - [@eckertThesisCEP]\n",
-              "childs": [
-                {
-                  "content": ",[@eckertThesisCEP]",
-                  "plain": "[@eckertThesisCEP]\n",
-                  "plainChilds": "",
-                  "childs": []
-                }
-              ]
-            },
-            {
-              "content": "yellow",
-              "plain": "yellow\n",
-              "plainChilds": "    - yellow property\n",
-              "childs": [
-                {
-                  "content": "yellow property",
-                  "plain": "yellow property\n",
-                  "plainChilds": "",
-                  "childs": []
-                }
-              ]
-            },
-            {
-              "content": "dark blue",
-              "plain": "dark blue\n",
-              "plainChilds": "    - [@eckertThesisCEP]\n",
-              "childs": [
-                {
-                  "content": ",[@eckertThesisCEP]",
-                  "plain": "[@eckertThesisCEP]\n",
-                  "plainChilds": "",
-                  "childs": []
-                }
-              ]
-            },
-            {
-              "content": "grey",
-              "plain": "grey\n",
+              "content": "Go",
+              "plain": "Go\n",
               "plainChilds": "",
               "childs": []
             },
             {
-              "content": "light blue",
-              "plain": "light blue\n",
+              "content": "Java",
+              "plain": "Java\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "Lisp",
+              "plain": "Lisp\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "MySQL",
+              "plain": "MySQL\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "NodeJs",
+              "plain": "NodeJs\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "Perl",
+              "plain": "Perl\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "PHP",
+              "plain": "PHP\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "PostgreSQL",
+              "plain": "PostgreSQL\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "Ruby",
+              "plain": "Ruby\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "Python",
+              "plain": "Python\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "Shell",
+              "plain": "Shell\n",
               "plainChilds": "",
               "childs": []
             }
@@ -386,11 +1669,42 @@
         ]
       }
     },
-    "Description": {
-      "plain": "Default long description in __markdown__.\n- Bibkey example [@Adi:2004:ASM:988145.988150]\n- [Link example](http://example.com).",
+    "Protocol": {
+      "plain": "- AMQP\n- AUTO\n- MQTT\n- OpenWire\n- STOMP\n",
       "childs": {
         "0": [
-          "Default long description in __markdown__. - Bibkey example [@Adi:2004:ASM:988145.988150] - [Link example]."
+          [
+            {
+              "content": "AMQP",
+              "plain": "AMQP\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "AUTO",
+              "plain": "AUTO\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "MQTT",
+              "plain": "MQTT\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "OpenWire",
+              "plain": "OpenWire\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "STOMP",
+              "plain": "STOMP\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
         ]
       }
     }

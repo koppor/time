@@ -1,18 +1,18 @@
 [
     {
         "name": "Name",
-        "tag":  "tag",
+        "tag": "tag",
         "urlTag": "url",
         "style": "width: 5%",
         "display": true,
         "type": {
-            "tag":"url"
-            },
-        "valign": "top"    
+            "tag": "url"
+        },
+        "valign": "top"
     },
     {
         "name": "Short Description",
-        "tag":  "descr",
+        "tag": "descr",
         "style": "width: 25%",
         "display": true,
         "type": {
@@ -20,30 +20,9 @@
         }
     },
     {
-        "name": "Performance",
-        "tag":  "Performance",
-        "style": "width: 5%",
-        "display": true,
-        "type": {
-            "tag": "label",
-            "values": [
-                {
-                    "name": "slow",
-                    "description": "Overall performance above 200ms.",
-                    "class": "label-danger"
-                },
-                {
-                    "name": "fast",
-                    "description": "Overall performance below 200ms.",
-                    "class": "label-success"
-                }   
-            ]
-        }
-    },
-    {
         "name": "License",
         "tag": "License",
-        "display": false,
+        "display": true,
         "type": {
             "tag": "label",
             "class": "label label-info",
@@ -57,55 +36,145 @@
                     "description": "http://choosealicense.com/licenses/apache-2.0/"
                 },
                 {
-                    "name": "MPL 2.0",
-                    "description": "http://choosealicense.com/licenses/mpl-2.0/"
+                    "name": "BSD-3-Clause",
+                    "description": "http://www.opensource.org/licenses/BSD-3-Clause"
+                },
+                {
+                    "name": "MPL 1.1",
+                    "description": "https://www.mozilla.org/media/MPL/1.1/index.0c5913925d40.txt"
                 }
             ]
         }
-        
     },
     {
-        "name": "Showcase",
-        "tag":  "Showcase 2.0",
-        "style": "width: 5%",
+        "name": "Protocol",
+        "tag": "Protocol",
+        "display": true,
+        "type": {
+            "tag": "label",
+            "class": "label label-info",
+            "values": [
+                {"name": "AMQP"},
+                {"name": "AUTO"},
+                {"name": "Beanstalkd"},
+                {"name": "MQTT"},
+                {"name": "OpenWire"},
+                {"name": "REST"},
+                {"name": "RSS and Atom"},
+                {"name": "STOMP"},
+                {"name": "WSIF"},
+                {"name": "WS Notification"},
+                {"name": "XMPP"}
+            ]
+        }
+    },
+    {
+        "name": "Client languages",
+        "tag": "Client languages",
+        "display": true,
+        "type": {
+            "tag": "label",
+            "class": "label label-info",
+            "values": [
+                {"name": ".NET"},
+                {"name": "C#"},
+                {"name": "C"},
+                {"name": "C++"},
+                {"name": "Clojure"},
+                {"name": "Django"},
+                {"name": "Common Lisp"},
+                {"name": "Erlang"},
+                {"name": "Go"},
+                {"name": "Groovy"},
+                {"name": "Grails"},
+                {"name": "Haskell"},
+                {"name": "Io"},
+                {"name": "Java"},
+                {"name": "Jekejeke Prolog"},
+                {"name": "JavaScript"},
+                {"name": "JRuby"},
+                {"name": "Lua"},
+                {"name": "Lisp"},
+                {"name": "MySQL"},
+                {"name": "NetLogo"},
+                {"name": "Nim"},
+                {"name": "Node.js"},
+                {"name": "Objective C"},
+                {"name": "OCaml"},
+                {"name": "Perl"},
+                {"name": "Pike"},
+                {"name": "PHP"},
+                {"name": "Python"},
+                {"name": "PostgreSQL"},
+                {"name": "Racket"},
+                {"name": "Rails"},
+                {"name": "Ruby"},
+                {"name": "Rust"},
+                {"name": "Scala"},
+                {"name": "Scheme"},
+                {"name": "Shell"},
+                {"name": "Swift"},
+                {"name": "Tcl/Tk"}
+            ]
+        }
+    },
+    {
+        "name": "Development status",
+        "tag": "Development status",
+        "display": true,
+        "type": {
+            "tag": "label",
+            "class": "label",
+            "values": [
+                {
+                    "name": "Stale",
+                    "description": "No version update since 12 months.",
+                    "class": "label-danger"
+                },
+                {
+                    "name": "Active",
+                    "description": "The tool is being actively developed",
+                    "class": "label-success"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Server Platforms",
+        "tag": "Server Platforms",
+        "display": true,
+        "type": {
+            "tag": "label",
+            "class": "label label-info",
+            "values": [
+                {"name": "Linux"},
+                {"name": "Windows"},
+                {"name": "Mac OS X"},
+                {"name": "Solaris"},
+                {"name": "FreeBSD"},
+                {"name": "TRU64"},
+                {"name": "VxWorks"}
+            ]
+        }
+    },
+    {
+        "name": "EAI-Pattern Support",
+        "tag": "EAI-Pattern Support",
         "display": true,
         "type": {
             "tag": "label",
             "values": [
                 {
-                    "name": "red 1",
-                    "description": "Show case for red label 1",
-                    "class": "label-danger"
+                    "name": "Complete",
+                    "class": "label label-success"
                 },
                 {
-                    "name": "red 2",
-                    "description": "Show case for red label 2",
-                    "class": "label-danger"
+                    "name": "Partially",
+                    "class": "label label-warning"
                 },
                 {
-                    "name": "green",
-                    "description": "Show case for green label",
-                    "class": "label-success"
-                },
-                {
-                    "name": "yellow",
-                    "description": "Show case for yellow label",
-                    "class": "label-warning"
-                },
-                {
-                    "name": "dark blue",
-                    "description": "Show case for dark blue label",
-                    "class": "label-primary"
-                },
-                {
-                    "name": "grey",
-                    "description": "Show case for grey label",
-                    "class": "label-default"
-                },
-                {
-                    "name": "light blue",
-                    "description": "Show case for light blue label",
-                    "class": "label-info"
+                    "name": "No",
+                    "class": "label label-danger"
                 }
             ]
         }

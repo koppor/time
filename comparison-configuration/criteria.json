@@ -1,68 +1,122 @@
 [
     {
-        "name": "Performance",
-        "tag": "Performance",
-        "description": "Performace of entry.",
-        "placeholder": "Select performace rating ...",
-        "and_search": true,
-        "values": [
-            {
-                "name": "slow",
-                "description": "I am slow!"
-            },
-            {
-                "name": "fast",
-                "description": "I am fast!"    
-            }
-        ]
-    },
-    {
         "name": "Licenses",
         "tag": "License",
-        "description": "Popular licenses for DOM manipulation libraries.",
         "placeholder": "Select license ...",
         "and_search": false,
         "values": [
+            {"name": "MIT"},
+            {"name": "Apache 2.0"},
+            {"name": "BSD-3-Clause"},
+            {"name": "MPL 1.1"}
+        ]
+    },
+    {
+        "name": "Protocol",
+        "tag": "Protocol",
+        "placeholder": "Select protocol ...",
+        "and_search": false,
+        "values": [
+            {"name": "AMQP"},
+            {"name": "AUTO"},
+            {"name": "Beanstalkd"},
+            {"name": "MQTT"},
+            {"name": "OpenWire"},
+            {"name": "STOMP"}
+        ]
+    },
+    {
+        "name": "Client languages",
+        "tag": "Client languages",
+        "placeholder": "Select client languages ...",
+        "and_search": false,
+        "values": [
+            {"name": ".NET"},
+            {"name": "C#"},
+            {"name": "C"},
+            {"name": "C++"},
+            {"name": "Clojure"},
+            {"name": "Django"},
+            {"name": "Common Lisp"},
+            {"name": "Erlang"},
+            {"name": "Go"},
+            {"name": "Groovy"},
+            {"name": "Grails"},
+            {"name": "Haskell"},
+            {"name": "Io"},
+            {"name": "Java"},
+            {"name": "Jekejeke Prolog"},
+            {"name": "JavaScript"},
+            {"name": "JRuby"},
+            {"name": "Lua"},
+            {"name": "Lisp"},
+            {"name": "MySQL"},
+            {"name": "NetLogo"},
+            {"name": "Nim"},
+            {"name": "Node.js"},
+            {"name": "Objective C"},
+            {"name": "OCaml"},
+            {"name": "Perl"},
+            {"name": "Pike"},
+            {"name": "PHP"},
+            {"name": "Python"},
+            {"name": "PostgreSQL"},
+            {"name": "Racket"},
+            {"name": "Rails"},
+            {"name": "Ruby"},
+            {"name": "Rust"},
+            {"name": "Scala"},
+            {"name": "Scheme"},
+            {"name": "Shell"},
+            {"name": "Swift"},
+            {"name": "Tcl/Tk"}
+        ]
+    },
+    {
+        "name": "Development status",
+        "tag": "Development status",
+        "description": "",
+        "placeholder": "Select development status ...",
+        "and_search": false,
+        "values": [
             {
-                "name": "MIT"
+                "name": "Stale",
+                "description": "No version update since 12 months.",
+                "class": "label-danger"
             },
             {
-                "name": "Apache 2.0"
-            },
-            {
-                "name": "MPL 2.0"
+                "name": "Active",
+                "description": "The tool is being actively developed",
+                "class": "label-success"
             }
         ]
     },
     {
-        "name": "Showcase",
-        "tag":  "Showcase 2.0",
-        "description": "Popular showcases.",
-        "placeholder": "Select showcase ...",
+        "name": "Server Platforms",
+        "tag": "Server Platforms",
+        "description": "",
+        "placeholder": "Select server platform ...",
         "and_search": false,
-        
         "values": [
-            {
-                "name": "red 1"
-            },
-            {
-                "name": "red 2"
-            },
-            {
-                "name": "green"
-            },
-            {
-                "name": "yellow"
-            },
-            {
-                "name": "dark blue"
-            },
-            {
-                "name": "grey"
-            },
-            {
-                "name": "light blue"
-            }
+            {"name": "Linux"},
+            {"name": "Windows"},
+            {"name": "Mac OS X"},
+            {"name": "Solaris"},
+            {"name": "FreeBSD"},
+            {"name": "TRU64"},
+            {"name": "VxWorks"}
+        ]
+    },
+    {
+        "name": "EAI-Pattern Support",
+        "tag": "EAI-Pattern Support",
+        "description": "",
+        "placeholder": "Select EAI-Pattern support ...",
+        "and_search": false,
+        "values": [
+            {"name": "Complete"},
+            {"name": "Partially"},
+            {"name": "No"}
         ]
     }
 ]
