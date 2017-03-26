@@ -1707,7 +1707,7 @@
       }
     },
     "Development status": {
-      "plain": "- Active\n    - Last version: 3.2.8 on 2017-02-12 [@redisRepository]\n- Stable [@redisRepository]\n",
+      "plain": "- Active\n    - Last version: 3.2.8 on 2017-02-12 [@redisRepository]\n- Stable\n    - [@redisRepository]\n",
       "childs": {
         "0": [
           [
@@ -1725,10 +1725,17 @@
               ]
             },
             {
-              "content": "Stable [@redisRepository]",
-              "plain": "Stable [@redisRepository]\n",
-              "plainChilds": "",
-              "childs": []
+              "content": "Stable",
+              "plain": "Stable\n",
+              "plainChilds": "    - [@redisRepository]\n",
+              "childs": [
+                {
+                  "content": ",[@redisRepository]",
+                  "plain": "[@redisRepository]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
             }
           ]
         ]

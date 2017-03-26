@@ -79,16 +79,10 @@
         "placeholder": "Select development status ...",
         "and_search": false,
         "values": [
-            {
-                "name": "Stale",
-                "description": "No version update since 12 months.",
-                "class": "label-danger"
-            },
-            {
-                "name": "Active",
-                "description": "The tool is being actively developed",
-                "class": "label-success"
-            }
+            {"name": "Stale"},
+            {"name": "Active"},
+            {"name": "Experimental"},
+            {"name": "Stable"}
         ]
     },
     {
@@ -98,12 +92,14 @@
         "placeholder": "Select server platform ...",
         "and_search": false,
         "values": [
-            {"name": "Linux"},
-            {"name": "Windows"},
-            {"name": "OSX"},
-            {"name": "Solaris"},
             {"name": "FreeBSD"},
+            {"name": "Linux"},
+            {"name": "OSX"},
+            {"name": "FreeBSD"},
+            {"name": "OpenBSD"},
+            {"name": "Solaris"},
             {"name": "TRU64"},
+            {"name": "Windows"},
             {"name": "VxWorks"}
         ]
     },
