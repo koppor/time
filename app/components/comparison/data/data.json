@@ -684,7 +684,7 @@
       }
     },
     "Server Platforms": {
-      "plain": "- Windows\n    - [@beanstalkdServer]\n- Linux\n    - 2.6.17 or later [@beanstalkdServer]\n- Mac OS X\n    - [@beanstalkdServer]\n- FreeBSD\n    - [@beanstalkdServer]\n",
+      "plain": "- Windows\n    - [@beanstalkdServer]\n- Linux\n    - 2.6.17 or later [@beanstalkdServer]\n- OSX\n    - [@beanstalkdServer]\n- FreeBSD\n    - [@beanstalkdServer]\n",
       "childs": {
         "0": [
           [
@@ -715,8 +715,8 @@
               ]
             },
             {
-              "content": "Mac OS X",
-              "plain": "Mac OS X\n",
+              "content": "OSX",
+              "plain": "OSX\n",
               "plainChilds": "    - [@beanstalkdServer]\n",
               "childs": [
                 {
@@ -1109,7 +1109,7 @@
       }
     },
     "Development status": {
-      "plain": "- Stale\n    - Last version: 0.2.0 on 2013-03-18 [@darnerRepository]\n- Experimental [@darnerRepository]\n",
+      "plain": "- Stale\n    - Last version: 0.2.0 on 2013-03-18 [@darnerRepository]\n- Experimental\n    - [@darnerRepository]\n",
       "childs": {
         "0": [
           [
@@ -1127,23 +1127,30 @@
               ]
             },
             {
-              "content": "Experimental [@darnerRepository]",
-              "plain": "Experimental [@darnerRepository]\n",
-              "plainChilds": "",
-              "childs": []
+              "content": "Experimental",
+              "plain": "Experimental\n",
+              "plainChilds": "    - [@darnerRepository]\n",
+              "childs": [
+                {
+                  "content": ",[@darnerRepository]",
+                  "plain": "[@darnerRepository]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
             }
           ]
         ]
       }
     },
     "Server Platforms": {
-      "plain": "- Mac OS X\n    - [@darnerServer]\n- Linux\n    - Ubuntu[@darnerServer]\n",
+      "plain": "- OSX\n    - [@darnerServer]\n- Linux\n    - Ubuntu[@darnerServer]\n",
       "childs": {
         "0": [
           [
             {
-              "content": "Mac OS X",
-              "plain": "Mac OS X\n",
+              "content": "OSX",
+              "plain": "OSX\n",
               "plainChilds": "    - [@darnerServer]\n",
               "childs": [
                 {
@@ -1297,7 +1304,7 @@
       }
     },
     "Server Platforms": {
-      "plain": "- Linux\n    - [@rabbitMQServer]\n- Windows\n    - [@rabbitMQServer]\n- Mac OS X\n    - [@rabbitMQServer]\n- Solaris\n    - [@rabbitMQServer]\n- FreeBSD\n    - [@rabbitMQServer]\n- TRU64\n    - [@rabbitMQServer]\n- VxWorks\n    - [@rabbitMQServer]\n",
+      "plain": "- Linux\n    - [@rabbitMQServer]\n- Windows\n    - [@rabbitMQServer]\n- OSX\n    - [@rabbitMQServer]\n- Solaris\n    - [@rabbitMQServer]\n- FreeBSD\n    - [@rabbitMQServer]\n- TRU64\n    - [@rabbitMQServer]\n- VxWorks\n    - [@rabbitMQServer]\n",
       "childs": {
         "0": [
           [
@@ -1328,8 +1335,8 @@
               ]
             },
             {
-              "content": "Mac OS X",
-              "plain": "Mac OS X\n",
+              "content": "OSX",
+              "plain": "OSX\n",
               "plainChilds": "    - [@rabbitMQServer]\n",
               "childs": [
                 {
@@ -1667,7 +1674,158 @@
     }
   },
   {
-    "tag": "Darner - https://github.com/wavii/darner",
+    "tag": "redis - https://redis.io/",
+    "descr": "in-memory data structure store, used as a database, cache and message broker",
+    "Description": {
+      "plain": "Redis is an open source (BSD licensed), in-memory data structure store, used as a database, cache and message broker. It supports data structures such as strings, hashes, lists, sets, sorted sets with range queries, bitmaps, hyperloglogs and geospatial indexes with radius queries. Redis has built-in replication, Lua scripting, LRU eviction, transactions and different levels of on-disk persistence, and provides high availability via Redis Sentinel and automatic partitioning with Redis Cluster.",
+      "childs": {
+        "0": [
+          "Redis is an open source (BSD licensed), in-memory data structure store, used as a database, cache and message broker. It supports data structures such as strings, hashes, lists, sets, sorted sets with range queries, bitmaps, hyperloglogs and geospatial indexes with radius queries. Redis has built-in replication, Lua scripting, LRU eviction, transactions and different levels of on-disk persistence, and provides high availability via Redis Sentinel and automatic partitioning with Redis Cluster."
+        ]
+      }
+    },
+    "License": {
+      "plain": "- BSD-3-Clause\n    - [@redisLicense]\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "BSD-3-Clause",
+              "plain": "BSD-3-Clause\n",
+              "plainChilds": "    - [@redisLicense]\n",
+              "childs": [
+                {
+                  "content": ",[@redisLicense]",
+                  "plain": "[@redisLicense]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    "Development status": {
+      "plain": "- Active\n    - Last version: 3.2.8 on 2017-02-12 [@redisRepository]\n- Stable [@redisRepository]\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Active",
+              "plain": "Active\n",
+              "plainChilds": "    - Last version: 3.2.8 on 2017-02-12 [@redisRepository]\n",
+              "childs": [
+                {
+                  "content": "Last version: 3.2.8 on 2017-02-12 [@redisRepository]",
+                  "plain": "Last version: 3.2.8 on 2017-02-12 [@redisRepository]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Stable [@redisRepository]",
+              "plain": "Stable [@redisRepository]\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Server Platforms": {
+      "plain": "- FreeBSD\n    - [@redisServer]\n- Linux\n    - [@redisServer]\n- Mac Osc X\n    - [@redisServer]\n- NetBSD\n    - [@redisServer]\n- OpenBSD\n    - [@redisServer]\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "FreeBSD",
+              "plain": "FreeBSD\n",
+              "plainChilds": "    - [@redisServer]\n",
+              "childs": [
+                {
+                  "content": ",[@redisServer]",
+                  "plain": "[@redisServer]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Linux",
+              "plain": "Linux\n",
+              "plainChilds": "    - [@redisServer]\n",
+              "childs": [
+                {
+                  "content": ",[@redisServer]",
+                  "plain": "[@redisServer]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Mac Osc X",
+              "plain": "Mac Osc X\n",
+              "plainChilds": "    - [@redisServer]\n",
+              "childs": [
+                {
+                  "content": ",[@redisServer]",
+                  "plain": "[@redisServer]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "NetBSD",
+              "plain": "NetBSD\n",
+              "plainChilds": "    - [@redisServer]\n",
+              "childs": [
+                {
+                  "content": ",[@redisServer]",
+                  "plain": "[@redisServer]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "OpenBSD",
+              "plain": "OpenBSD\n",
+              "plainChilds": "    - [@redisServer]\n",
+              "childs": [
+                {
+                  "content": ",[@redisServer]",
+                  "plain": "[@redisServer]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    "Client languages": {
+      "plain": "- Celery\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Celery",
+              "plain": "Celery\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "tag": "Siberite - https://github.com/wavii/darner",
     "descr": "simple leveldb backed message queue server",
     "Description": {
       "plain": "Siberite is a simple leveldb backed message queue server\n(twitter/kestrel, wavii/darner rewritten in Go).\n\nSiberite is a very simple message queue server. Unlike in-memory servers such as redis, Siberite is designed to handle queues much larger than what can be held in RAM. And unlike enterprise queue servers such as RabbitMQ, Siberite keeps all messages out of process, using goleveldb as a persistent storage.",
@@ -1701,7 +1859,7 @@
       }
     },
     "Development status": {
-      "plain": "- Stale\n    - Last version: 0.2.0 on 2013-03-18 [@siberiteRepository]\n- Experimental [@siberiteRepository]\n",
+      "plain": "- Stale\n    - Last version: 0.2.0 on 2013-03-18 [@siberiteRepository]\n- Experimental\n    - [@siberiteRepository]\n",
       "childs": {
         "0": [
           [
@@ -1719,23 +1877,30 @@
               ]
             },
             {
-              "content": "Experimental [@siberiteRepository]",
-              "plain": "Experimental [@siberiteRepository]\n",
-              "plainChilds": "",
-              "childs": []
+              "content": "Experimental",
+              "plain": "Experimental\n",
+              "plainChilds": "    - [@siberiteRepository]\n",
+              "childs": [
+                {
+                  "content": ",[@siberiteRepository]",
+                  "plain": "[@siberiteRepository]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
             }
           ]
         ]
       }
     },
     "Server Platforms": {
-      "plain": "- Mac OS X\n    - [@siberiteRepository]\n- Linux\n    - [@siberiteRepository]\n",
+      "plain": "- OSX\n    - [@siberiteRepository]\n- Linux\n    - [@siberiteRepository]\n",
       "childs": {
         "0": [
           [
             {
-              "content": "Mac OS X",
-              "plain": "Mac OS X\n",
+              "content": "OSX",
+              "plain": "OSX\n",
               "plainChilds": "    - [@siberiteRepository]\n",
               "childs": [
                 {

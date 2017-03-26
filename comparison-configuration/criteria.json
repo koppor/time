@@ -100,7 +100,7 @@
         "values": [
             {"name": "Linux"},
             {"name": "Windows"},
-            {"name": "Mac OS X"},
+            {"name": "OSX"},
             {"name": "Solaris"},
             {"name": "FreeBSD"},
             {"name": "TRU64"},

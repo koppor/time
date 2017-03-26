@@ -161,12 +161,14 @@
             "tag": "label",
             "class": "label label-info",
             "values": [
-                {"name": "Linux"},
-                {"name": "Windows"},
-                {"name": "Mac OS X"},
-                {"name": "Solaris"},
                 {"name": "FreeBSD"},
+                {"name": "Linux"},
+                {"name": "OSX"},
+                {"name": "FreeBSD"},
+                {"name": "OpenBSD"},
+                {"name": "Solaris"},
                 {"name": "TRU64"},
+                {"name": "Windows"},
                 {"name": "VxWorks"}
             ]
         }

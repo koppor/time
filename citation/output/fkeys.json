@@ -22,5 +22,8 @@
  "darnerRepository":"[18]",
  "darnerLicense":"[17]",
  "darnerServer":"[19]",
- "siberiteLicense":"[25]",
- "siberiteRepository":"[26]" }
+ "siberiteLicense":"[27]",
+ "siberiteRepository":"[28]",
+ "redisLicense":"[25]",
+ "redisRepository":"[26]",
+ "":"[@]" }
