@@ -12,18 +12,18 @@
       }
     },
     "License": {
-      "plain": "- Apache 2.0\n    - [@ActiveMQ]\n",
+      "plain": "- Apache 2.0\n    - [@activeMQ]\n",
       "childs": {
         "0": [
           [
             {
               "content": "Apache 2.0",
               "plain": "Apache 2.0\n",
-              "plainChilds": "    - [@ActiveMQ]\n",
+              "plainChilds": "    - [@activeMQ]\n",
               "childs": [
                 {
-                  "content": ",[@ActiveMQ]",
-                  "plain": "[@ActiveMQ]\n",
+                  "content": ",[@activeMQ]",
+                  "plain": "[@activeMQ]\n",
                   "plainChilds": "",
                   "childs": []
                 }
@@ -34,18 +34,18 @@
       }
     },
     "Development status": {
-      "plain": "- Active\n    - Last version: 5.14.4 on 2017-02-27 [@ActiveMQRepository]\n",
+      "plain": "- Active\n    - Last version: 5.14.4 on 2017-02-27 [@activeMQRepository]\n",
       "childs": {
         "0": [
           [
             {
               "content": "Active",
               "plain": "Active\n",
-              "plainChilds": "    - Last version: 5.14.4 on 2017-02-27 [@ActiveMQRepository]\n",
+              "plainChilds": "    - Last version: 5.14.4 on 2017-02-27 [@activeMQRepository]\n",
               "childs": [
                 {
-                  "content": "Last version: 5.14.4 on 2017-02-27 [@ActiveMQRepository]",
-                  "plain": "Last version: 5.14.4 on 2017-02-27 [@ActiveMQRepository]\n",
+                  "content": "Last version: 5.14.4 on 2017-02-27 [@activeMQRepository]",
+                  "plain": "Last version: 5.14.4 on 2017-02-27 [@activeMQRepository]\n",
                   "plainChilds": "",
                   "childs": []
                 }
@@ -91,18 +91,18 @@
       }
     },
     "Protocol": {
-      "plain": "- AMQP\n    - [@ActiveMQProtocols]\n- AUTO\n    - [@ActiveMQProtocols]\n- MQTT\n    - [@ActiveMQProtocols]\n- OpenWire\n    - [@ActiveMQProtocols]\n- REST\n    - [@ActiveMQProtocols]\n- RSS and Atom\n    - [@ActiveMQProtocols]\n- STOMP\n    - [@ActiveMQProtocols]\n- WSIF\n    - [@ActiveMQProtocols]\n- WS Notification\n    - [@ActiveMQProtocols]\n- XMPP\n    - [@ActiveMQProtocols]\n",
+      "plain": "- AMQP\n    - [@activeMQProtocols]\n- AUTO\n    - [@activeMQProtocols]\n- MQTT\n    - [@activeMQProtocols]\n- OpenWire\n    - [@activeMQProtocols]\n- REST\n    - [@activeMQProtocols]\n- RSS and Atom\n    - [@activeMQProtocols]\n- STOMP\n    - [@activeMQProtocols]\n- WSIF\n    - [@activeMQProtocols]\n- WS Notification\n    - [@activeMQProtocols]\n- XMPP\n    - [@activeMQProtocols]\n",
       "childs": {
         "0": [
           [
             {
               "content": "AMQP",
               "plain": "AMQP\n",
-              "plainChilds": "    - [@ActiveMQProtocols]\n",
+              "plainChilds": "    - [@activeMQProtocols]\n",
               "childs": [
                 {
-                  "content": ",[@ActiveMQProtocols]",
-                  "plain": "[@ActiveMQProtocols]\n",
+                  "content": ",[@activeMQProtocols]",
+                  "plain": "[@activeMQProtocols]\n",
                   "plainChilds": "",
                   "childs": []
                 }
@@ -111,11 +111,11 @@
             {
               "content": "AUTO",
               "plain": "AUTO\n",
-              "plainChilds": "    - [@ActiveMQProtocols]\n",
+              "plainChilds": "    - [@activeMQProtocols]\n",
               "childs": [
                 {
-                  "content": ",[@ActiveMQProtocols]",
-                  "plain": "[@ActiveMQProtocols]\n",
+                  "content": ",[@activeMQProtocols]",
+                  "plain": "[@activeMQProtocols]\n",
                   "plainChilds": "",
                   "childs": []
                 }
@@ -124,11 +124,11 @@
             {
               "content": "MQTT",
               "plain": "MQTT\n",
-              "plainChilds": "    - [@ActiveMQProtocols]\n",
+              "plainChilds": "    - [@activeMQProtocols]\n",
               "childs": [
                 {
-                  "content": ",[@ActiveMQProtocols]",
-                  "plain": "[@ActiveMQProtocols]\n",
+                  "content": ",[@activeMQProtocols]",
+                  "plain": "[@activeMQProtocols]\n",
                   "plainChilds": "",
                   "childs": []
                 }
@@ -137,11 +137,11 @@
             {
               "content": "OpenWire",
               "plain": "OpenWire\n",
-              "plainChilds": "    - [@ActiveMQProtocols]\n",
+              "plainChilds": "    - [@activeMQProtocols]\n",
               "childs": [
                 {
-                  "content": ",[@ActiveMQProtocols]",
-                  "plain": "[@ActiveMQProtocols]\n",
+                  "content": ",[@activeMQProtocols]",
+                  "plain": "[@activeMQProtocols]\n",
                   "plainChilds": "",
                   "childs": []
                 }
@@ -150,11 +150,11 @@
             {
               "content": "REST",
               "plain": "REST\n",
-              "plainChilds": "    - [@ActiveMQProtocols]\n",
+              "plainChilds": "    - [@activeMQProtocols]\n",
               "childs": [
                 {
-                  "content": ",[@ActiveMQProtocols]",
-                  "plain": "[@ActiveMQProtocols]\n",
+                  "content": ",[@activeMQProtocols]",
+                  "plain": "[@activeMQProtocols]\n",
                   "plainChilds": "",
                   "childs": []
                 }
@@ -163,11 +163,11 @@
             {
               "content": "RSS and Atom",
               "plain": "RSS and Atom\n",
-              "plainChilds": "    - [@ActiveMQProtocols]\n",
+              "plainChilds": "    - [@activeMQProtocols]\n",
               "childs": [
                 {
-                  "content": ",[@ActiveMQProtocols]",
-                  "plain": "[@ActiveMQProtocols]\n",
+                  "content": ",[@activeMQProtocols]",
+                  "plain": "[@activeMQProtocols]\n",
                   "plainChilds": "",
                   "childs": []
                 }
@@ -176,11 +176,11 @@
             {
               "content": "STOMP",
               "plain": "STOMP\n",
-              "plainChilds": "    - [@ActiveMQProtocols]\n",
+              "plainChilds": "    - [@activeMQProtocols]\n",
               "childs": [
                 {
-                  "content": ",[@ActiveMQProtocols]",
-                  "plain": "[@ActiveMQProtocols]\n",
+                  "content": ",[@activeMQProtocols]",
+                  "plain": "[@activeMQProtocols]\n",
                   "plainChilds": "",
                   "childs": []
                 }
@@ -189,11 +189,11 @@
             {
               "content": "WSIF",
               "plain": "WSIF\n",
-              "plainChilds": "    - [@ActiveMQProtocols]\n",
+              "plainChilds": "    - [@activeMQProtocols]\n",
               "childs": [
                 {
-                  "content": ",[@ActiveMQProtocols]",
-                  "plain": "[@ActiveMQProtocols]\n",
+                  "content": ",[@activeMQProtocols]",
+                  "plain": "[@activeMQProtocols]\n",
                   "plainChilds": "",
                   "childs": []
                 }
@@ -202,11 +202,11 @@
             {
               "content": "WS Notification",
               "plain": "WS Notification\n",
-              "plainChilds": "    - [@ActiveMQProtocols]\n",
+              "plainChilds": "    - [@activeMQProtocols]\n",
               "childs": [
                 {
-                  "content": ",[@ActiveMQProtocols]",
-                  "plain": "[@ActiveMQProtocols]\n",
+                  "content": ",[@activeMQProtocols]",
+                  "plain": "[@activeMQProtocols]\n",
                   "plainChilds": "",
                   "childs": []
                 }
@@ -215,11 +215,11 @@
             {
               "content": "XMPP",
               "plain": "XMPP\n",
-              "plainChilds": "    - [@ActiveMQProtocols]\n",
+              "plainChilds": "    - [@activeMQProtocols]\n",
               "childs": [
                 {
-                  "content": ",[@ActiveMQProtocols]",
-                  "plain": "[@ActiveMQProtocols]\n",
+                  "content": ",[@activeMQProtocols]",
+                  "plain": "[@activeMQProtocols]\n",
                   "plainChilds": "",
                   "childs": []
                 }
@@ -230,18 +230,18 @@
       }
     },
     "Client languages": {
-      "plain": "- .NET\n    - [@ActiveMQClients]\n- C++\n    - [@ActiveMQClients]\n- Erlang\n    - [@ActiveMQClients]\n- Go\n    - [@ActiveMQClients]\n- Haskell\n    - [@ActiveMQClients]\n- Java\n    - [@ActiveMQClients]\n- Jekejeke Prolog\n    - [@ActiveMQClients]\n- NetLogo\n    - [@ActiveMQClients]\n- Node.js\n    - [@ActiveMQClients]\n- Perl\n    - [@ActiveMQClients]\n- Pike\n    - [@ActiveMQClients]\n- Python\n    - [@ActiveMQClients]\n- Racket\n    - [@ActiveMQClients]\n- Ruby on Rails\n    - [@ActiveMQClients]\n- Tcl/Tk\n    - [@ActiveMQClients]\n",
+      "plain": "- .NET\n    - [@activeMQClients]\n- C++\n    - [@activeMQClients]\n- Erlang\n    - [@activeMQClients]\n- Go\n    - [@activeMQClients]\n- Haskell\n    - [@activeMQClients]\n- Java\n    - [@activeMQClients]\n- Jekejeke Prolog\n    - [@activeMQClients]\n- NetLogo\n    - [@activeMQClients]\n- Node.js\n    - [@activeMQClients]\n- Perl\n    - [@activeMQClients]\n- Pike\n    - [@activeMQClients]\n- Python\n    - [@activeMQClients]\n- Racket\n    - [@activeMQClients]\n- Ruby on Rails\n    - [@activeMQClients]\n- Tcl/Tk\n    - [@activeMQClients]\n",
       "childs": {
         "0": [
           [
             {
               "content": ".NET",
               "plain": ".NET\n",
-              "plainChilds": "    - [@ActiveMQClients]\n",
+              "plainChilds": "    - [@activeMQClients]\n",
               "childs": [
                 {
-                  "content": ",[@ActiveMQClients]",
-                  "plain": "[@ActiveMQClients]\n",
+                  "content": ",[@activeMQClients]",
+                  "plain": "[@activeMQClients]\n",
                   "plainChilds": "",
                   "childs": []
                 }
@@ -250,11 +250,11 @@
             {
               "content": "C++",
               "plain": "C++\n",
-              "plainChilds": "    - [@ActiveMQClients]\n",
+              "plainChilds": "    - [@activeMQClients]\n",
               "childs": [
                 {
-                  "content": ",[@ActiveMQClients]",
-                  "plain": "[@ActiveMQClients]\n",
+                  "content": ",[@activeMQClients]",
+                  "plain": "[@activeMQClients]\n",
                   "plainChilds": "",
                   "childs": []
                 }
@@ -263,11 +263,11 @@
             {
               "content": "Erlang",
               "plain": "Erlang\n",
-              "plainChilds": "    - [@ActiveMQClients]\n",
+              "plainChilds": "    - [@activeMQClients]\n",
               "childs": [
                 {
-                  "content": ",[@ActiveMQClients]",
-                  "plain": "[@ActiveMQClients]\n",
+                  "content": ",[@activeMQClients]",
+                  "plain": "[@activeMQClients]\n",
                   "plainChilds": "",
                   "childs": []
                 }
@@ -276,11 +276,11 @@
             {
               "content": "Go",
               "plain": "Go\n",
-              "plainChilds": "    - [@ActiveMQClients]\n",
+              "plainChilds": "    - [@activeMQClients]\n",
               "childs": [
                 {
-                  "content": ",[@ActiveMQClients]",
-                  "plain": "[@ActiveMQClients]\n",
+                  "content": ",[@activeMQClients]",
+                  "plain": "[@activeMQClients]\n",
                   "plainChilds": "",
                   "childs": []
                 }
@@ -289,11 +289,11 @@
             {
               "content": "Haskell",
               "plain": "Haskell\n",
-              "plainChilds": "    - [@ActiveMQClients]\n",
+              "plainChilds": "    - [@activeMQClients]\n",
               "childs": [
                 {
-                  "content": ",[@ActiveMQClients]",
-                  "plain": "[@ActiveMQClients]\n",
+                  "content": ",[@activeMQClients]",
+                  "plain": "[@activeMQClients]\n",
                   "plainChilds": "",
                   "childs": []
                 }
@@ -302,11 +302,11 @@
             {
               "content": "Java",
               "plain": "Java\n",
-              "plainChilds": "    - [@ActiveMQClients]\n",
+              "plainChilds": "    - [@activeMQClients]\n",
               "childs": [
                 {
-                  "content": ",[@ActiveMQClients]",
-                  "plain": "[@ActiveMQClients]\n",
+                  "content": ",[@activeMQClients]",
+                  "plain": "[@activeMQClients]\n",
                   "plainChilds": "",
                   "childs": []
                 }
@@ -315,11 +315,11 @@
             {
               "content": "Jekejeke Prolog",
               "plain": "Jekejeke Prolog\n",
-              "plainChilds": "    - [@ActiveMQClients]\n",
+              "plainChilds": "    - [@activeMQClients]\n",
               "childs": [
                 {
-                  "content": ",[@ActiveMQClients]",
-                  "plain": "[@ActiveMQClients]\n",
+                  "content": ",[@activeMQClients]",
+                  "plain": "[@activeMQClients]\n",
                   "plainChilds": "",
                   "childs": []
                 }
@@ -328,11 +328,11 @@
             {
               "content": "NetLogo",
               "plain": "NetLogo\n",
-              "plainChilds": "    - [@ActiveMQClients]\n",
+              "plainChilds": "    - [@activeMQClients]\n",
               "childs": [
                 {
-                  "content": ",[@ActiveMQClients]",
-                  "plain": "[@ActiveMQClients]\n",
+                  "content": ",[@activeMQClients]",
+                  "plain": "[@activeMQClients]\n",
                   "plainChilds": "",
                   "childs": []
                 }
@@ -341,11 +341,11 @@
             {
               "content": "Node.js",
               "plain": "Node.js\n",
-              "plainChilds": "    - [@ActiveMQClients]\n",
+              "plainChilds": "    - [@activeMQClients]\n",
               "childs": [
                 {
-                  "content": ",[@ActiveMQClients]",
-                  "plain": "[@ActiveMQClients]\n",
+                  "content": ",[@activeMQClients]",
+                  "plain": "[@activeMQClients]\n",
                   "plainChilds": "",
                   "childs": []
                 }
@@ -354,11 +354,11 @@
             {
               "content": "Perl",
               "plain": "Perl\n",
-              "plainChilds": "    - [@ActiveMQClients]\n",
+              "plainChilds": "    - [@activeMQClients]\n",
               "childs": [
                 {
-                  "content": ",[@ActiveMQClients]",
-                  "plain": "[@ActiveMQClients]\n",
+                  "content": ",[@activeMQClients]",
+                  "plain": "[@activeMQClients]\n",
                   "plainChilds": "",
                   "childs": []
                 }
@@ -367,11 +367,11 @@
             {
               "content": "Pike",
               "plain": "Pike\n",
-              "plainChilds": "    - [@ActiveMQClients]\n",
+              "plainChilds": "    - [@activeMQClients]\n",
               "childs": [
                 {
-                  "content": ",[@ActiveMQClients]",
-                  "plain": "[@ActiveMQClients]\n",
+                  "content": ",[@activeMQClients]",
+                  "plain": "[@activeMQClients]\n",
                   "plainChilds": "",
                   "childs": []
                 }
@@ -380,11 +380,11 @@
             {
               "content": "Python",
               "plain": "Python\n",
-              "plainChilds": "    - [@ActiveMQClients]\n",
+              "plainChilds": "    - [@activeMQClients]\n",
               "childs": [
                 {
-                  "content": ",[@ActiveMQClients]",
-                  "plain": "[@ActiveMQClients]\n",
+                  "content": ",[@activeMQClients]",
+                  "plain": "[@activeMQClients]\n",
                   "plainChilds": "",
                   "childs": []
                 }
@@ -393,11 +393,11 @@
             {
               "content": "Racket",
               "plain": "Racket\n",
-              "plainChilds": "    - [@ActiveMQClients]\n",
+              "plainChilds": "    - [@activeMQClients]\n",
               "childs": [
                 {
-                  "content": ",[@ActiveMQClients]",
-                  "plain": "[@ActiveMQClients]\n",
+                  "content": ",[@activeMQClients]",
+                  "plain": "[@activeMQClients]\n",
                   "plainChilds": "",
                   "childs": []
                 }
@@ -406,11 +406,11 @@
             {
               "content": "Ruby on Rails",
               "plain": "Ruby on Rails\n",
-              "plainChilds": "    - [@ActiveMQClients]\n",
+              "plainChilds": "    - [@activeMQClients]\n",
               "childs": [
                 {
-                  "content": ",[@ActiveMQClients]",
-                  "plain": "[@ActiveMQClients]\n",
+                  "content": ",[@activeMQClients]",
+                  "plain": "[@activeMQClients]\n",
                   "plainChilds": "",
                   "childs": []
                 }
@@ -419,11 +419,11 @@
             {
               "content": "Tcl/Tk",
               "plain": "Tcl/Tk\n",
-              "plainChilds": "    - [@ActiveMQClients]\n",
+              "plainChilds": "    - [@activeMQClients]\n",
               "childs": [
                 {
-                  "content": ",[@ActiveMQClients]",
-                  "plain": "[@ActiveMQClients]\n",
+                  "content": ",[@activeMQClients]",
+                  "plain": "[@activeMQClients]\n",
                   "plainChilds": "",
                   "childs": []
                 }
@@ -450,29 +450,29 @@
     }
   },
   {
-    "tag": "Apollo - http://activemq.apache.org/apollo/",
+    "tag": "apollo - http://activemq.apache.org/apollo/",
     "descr": "ActiveMQ's next generation of messaging.",
     "Description": {
-      "plain": "ActiveMQ Apollo is a faster, more reliable, easier to maintain messaging broker built from the foundations of the original ActiveMQ. It accomplishes this using a radically different threading and message dispatching architecture. Like ActiveMQ, Apollo is a multi-Protocol broker and supports STOMP, AMQP, MQTT, Openwire, SSL, and WebSockets.",
+      "plain": "ActiveMQ apollo is a faster, more reliable, easier to maintain messaging broker built from the foundations of the original ActiveMQ. It accomplishes this using a radically different threading and message dispatching architecture. Like ActiveMQ, apollo is a multi-Protocol broker and supports STOMP, AMQP, MQTT, Openwire, SSL, and WebSockets.",
       "childs": {
         "0": [
-          "ActiveMQ Apollo is a faster, more reliable, easier to maintain messaging broker built from the foundations of the original ActiveMQ. It accomplishes this using a radically different threading and message dispatching architecture. Like ActiveMQ, Apollo is a multi-Protocol broker and supports STOMP, AMQP, MQTT, Openwire, SSL, and WebSockets."
+          "ActiveMQ apollo is a faster, more reliable, easier to maintain messaging broker built from the foundations of the original ActiveMQ. It accomplishes this using a radically different threading and message dispatching architecture. Like ActiveMQ, apollo is a multi-Protocol broker and supports STOMP, AMQP, MQTT, Openwire, SSL, and WebSockets."
         ]
       }
     },
     "License": {
-      "plain": "- Apache 2.0\n    - [@Apollo]\n",
+      "plain": "- Apache 2.0\n    - [@apollo]\n",
       "childs": {
         "0": [
           [
             {
               "content": "Apache 2.0",
               "plain": "Apache 2.0\n",
-              "plainChilds": "    - [@Apollo]\n",
+              "plainChilds": "    - [@apollo]\n",
               "childs": [
                 {
-                  "content": ",[@Apollo]",
-                  "plain": "[@Apollo]\n",
+                  "content": ",[@apollo]",
+                  "plain": "[@apollo]\n",
                   "plainChilds": "",
                   "childs": []
                 }
@@ -483,18 +483,18 @@
       }
     },
     "Development status": {
-      "plain": "- Stale\n    - Last version: 1.7.1 on 2015-01-29 [@ApolloRepository]\n",
+      "plain": "- Stale\n    - Last version: 1.7.1 on 2015-01-29 [@apolloRepository]\n",
       "childs": {
         "0": [
           [
             {
               "content": "Stale",
               "plain": "Stale\n",
-              "plainChilds": "    - Last version: 1.7.1 on 2015-01-29 [@ApolloRepository]\n",
+              "plainChilds": "    - Last version: 1.7.1 on 2015-01-29 [@apolloRepository]\n",
               "childs": [
                 {
-                  "content": "Last version: 1.7.1 on 2015-01-29 [@ApolloRepository]",
-                  "plain": "Last version: 1.7.1 on 2015-01-29 [@ApolloRepository]\n",
+                  "content": "Last version: 1.7.1 on 2015-01-29 [@apolloRepository]",
+                  "plain": "Last version: 1.7.1 on 2015-01-29 [@apolloRepository]\n",
                   "plainChilds": "",
                   "childs": []
                 }
@@ -540,18 +540,18 @@
       }
     },
     "Protocol": {
-      "plain": "- STOMP\n    - [@Apollo]\n- AMQP\n    - [@Apollo]\n- MQTT\n    - [@Apollo]\n- OpenWire\n    - [@Apollo]\n",
+      "plain": "- STOMP\n    - [@apollo]\n- AMQP\n    - [@apollo]\n- MQTT\n    - [@apollo]\n- OpenWire\n    - [@apollo]\n",
       "childs": {
         "0": [
           [
             {
               "content": "STOMP",
               "plain": "STOMP\n",
-              "plainChilds": "    - [@Apollo]\n",
+              "plainChilds": "    - [@apollo]\n",
               "childs": [
                 {
-                  "content": ",[@Apollo]",
-                  "plain": "[@Apollo]\n",
+                  "content": ",[@apollo]",
+                  "plain": "[@apollo]\n",
                   "plainChilds": "",
                   "childs": []
                 }
@@ -560,11 +560,11 @@
             {
               "content": "AMQP",
               "plain": "AMQP\n",
-              "plainChilds": "    - [@Apollo]\n",
+              "plainChilds": "    - [@apollo]\n",
               "childs": [
                 {
-                  "content": ",[@Apollo]",
-                  "plain": "[@Apollo]\n",
+                  "content": ",[@apollo]",
+                  "plain": "[@apollo]\n",
                   "plainChilds": "",
                   "childs": []
                 }
@@ -573,11 +573,11 @@
             {
               "content": "MQTT",
               "plain": "MQTT\n",
-              "plainChilds": "    - [@Apollo]\n",
+              "plainChilds": "    - [@apollo]\n",
               "childs": [
                 {
-                  "content": ",[@Apollo]",
-                  "plain": "[@Apollo]\n",
+                  "content": ",[@apollo]",
+                  "plain": "[@apollo]\n",
                   "plainChilds": "",
                   "childs": []
                 }
@@ -586,11 +586,11 @@
             {
               "content": "OpenWire",
               "plain": "OpenWire\n",
-              "plainChilds": "    - [@Apollo]\n",
+              "plainChilds": "    - [@apollo]\n",
               "childs": [
                 {
-                  "content": ",[@Apollo]",
-                  "plain": "[@Apollo]\n",
+                  "content": ",[@apollo]",
+                  "plain": "[@apollo]\n",
                   "plainChilds": "",
                   "childs": []
                 }
@@ -1047,6 +1047,103 @@
                 {
                   "content": ",[@beanstalkdClients]",
                   "plain": "[@beanstalkdClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "tag": "Darner - https://github.com/wavii/darner",
+    "descr": "simple, lightweight message queue",
+    "Description": {
+      "plain": "Darner is a very simple message queue server. Unlike in-memory servers such as redis, Darner is designed to handle queues much larger than what can be held in RAM. And unlike enterprise queue servers such as RabbitMQ, Darner keeps all messages out of process, relying instead on the kernel's virtual memory manager via log-structured storage.",
+      "childs": {
+        "0": [
+          "Darner is a very simple message queue server. Unlike in-memory servers such as redis, Darner is designed to handle queues much larger than what can be held in RAM. And unlike enterprise queue servers such as RabbitMQ, Darner keeps all messages out of process, relying instead on the kernel's virtual memory manager via log-structured storage."
+        ]
+      }
+    },
+    "License": {
+      "plain": "- Apache 2.0\n    - [@darnerLicense]\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Apache 2.0",
+              "plain": "Apache 2.0\n",
+              "plainChilds": "    - [@darnerLicense]\n",
+              "childs": [
+                {
+                  "content": ",[@darnerLicense]",
+                  "plain": "[@darnerLicense]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    "Development status": {
+      "plain": "- Stale\n    - Last version: 0.2.0 on 2013-03-18 [@darnerRepository]\n- experimental [@darnerRepository]\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Stale",
+              "plain": "Stale\n",
+              "plainChilds": "    - Last version: 0.2.0 on 2013-03-18 [@darnerRepository]\n",
+              "childs": [
+                {
+                  "content": "Last version: 0.2.0 on 2013-03-18 [@darnerRepository]",
+                  "plain": "Last version: 0.2.0 on 2013-03-18 [@darnerRepository]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "experimental [@darnerRepository]",
+              "plain": "experimental [@darnerRepository]\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Server Platforms": {
+      "plain": "- Mac OS X\n    - [@darnerServer]\n- Linux\n    - Ubuntu[@darnerServer]\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Mac OS X",
+              "plain": "Mac OS X\n",
+              "plainChilds": "    - [@darnerServer]\n",
+              "childs": [
+                {
+                  "content": ",[@darnerServer]",
+                  "plain": "[@darnerServer]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Linux",
+              "plain": "Linux\n",
+              "plainChilds": "    - Ubuntu[@darnerServer]\n",
+              "childs": [
+                {
+                  "content": "Ubuntu[@darnerServer]",
+                  "plain": "Ubuntu[@darnerServer]\n",
                   "plainChilds": "",
                   "childs": []
                 }
