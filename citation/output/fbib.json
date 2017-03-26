@@ -22,5 +22,7 @@
 "rabbitMQLicense":"<p>21. RabbitMQ - license, <a href=\"https://www.rabbitmq.com/mpl.html\" class=\"uri\">https://www.rabbitmq.com/mpl.html</a>.</p>",
 "rabbitMQProtocols":"<p>22. RabbitMQ - protocols, <a href=\"https://www.rabbitmq.com/protocol.html\" class=\"uri\">https://www.rabbitmq.com/protocol.html</a>.</p>",
 "rabbitMQRepository":"<p>23. RabbitMQ - repository, <a href=\"https://github.com/rabbitmq/rabbitmq-server/tags\" class=\"uri\">https://github.com/rabbitmq/rabbitmq-server/tags</a>.</p>",
-"rabbitMQServer":"<p>24. RabbitMQ - server platforms, <a href=\"https://www.rabbitmq.com/platforms.html\" class=\"uri\">https://www.rabbitmq.com/platforms.html</a>.</p>"
+"rabbitMQServer":"<p>24. RabbitMQ - server platforms, <a href=\"https://www.rabbitmq.com/platforms.html\" class=\"uri\">https://www.rabbitmq.com/platforms.html</a>.</p>",
+"siberiteLicense":"<p>25. Siberite - license, <a href=\"https://github.com/bogdanovich/siberite/blob/master/LICENSE\" class=\"uri\">https://github.com/bogdanovich/siberite/blob/master/LICENSE</a>.</p>",
+"siberiteRepository":"<p>26. Siberite - repository, <a href=\"https://github.com/bogdanovich/siberite/releases\" class=\"uri\">https://github.com/bogdanovich/siberite/releases</a>.</p>"
 }

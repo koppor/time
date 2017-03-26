@@ -57,6 +57,10 @@
                 {"name": "AMQP"},
                 {"name": "AUTO"},
                 {"name": "Beanstalkd"},
+                {
+                    "name": "memcached",
+                    "description": "https://github.com/memcached/memcached/blob/master/doc/protocol.txt"
+                },
                 {"name": "MQTT"},
                 {"name": "OpenWire"},
                 {"name": "REST"},
@@ -134,6 +138,16 @@
                 {
                     "name": "Active",
                     "description": "The tool is being actively developed",
+                    "class": "label-success"
+                },
+                {
+                    "name": "Experimental",
+                    "description": "Library has not reached version 1 yet.",
+                    "class": "label-danger"
+                },
+                {
+                    "name": "Stable",
+                    "description": "Library can be used in production.",
                     "class": "label-success"
                 }
             ]
