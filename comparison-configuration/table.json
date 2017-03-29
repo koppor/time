@@ -194,5 +194,14 @@
                 }
             ]
         }
+    },
+    {
+        "name": "Features",
+        "tag": "Features",
+        "display": true,
+        "type": {
+            "tag": "label",
+            "class": "label label-info"
+        }
     }
 ]

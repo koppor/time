@@ -61,6 +61,43 @@
         ]
       }
     },
+    "EAI-Pattern Support": {
+      "plain": "- Complete\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Complete",
+              "plain": "Complete\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Featuers": {
+      "plain": "- Clustering\n    - [@rabbitMQCluster]\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Clustering",
+              "plain": "Clustering\n",
+              "plainChilds": "    - [@rabbitMQCluster]\n",
+              "childs": [
+                {
+                  "content": ",[@rabbitMQCluster]",
+                  "plain": "[@rabbitMQCluster]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    },
     "Server Platforms": {
       "plain": "- Windows\n    - [@activeMQServer]\n- Linux\n    - [@activeMQServer]\n",
       "childs": {
@@ -434,21 +471,6 @@
                   "childs": []
                 }
               ]
-            }
-          ]
-        ]
-      }
-    },
-    "EAI-Pattern Support": {
-      "plain": "- Complete\n",
-      "childs": {
-        "0": [
-          [
-            {
-              "content": "Complete",
-              "plain": "Complete\n",
-              "plainChilds": "",
-              "childs": []
             }
           ]
         ]
@@ -1741,6 +1763,56 @@
         ]
       }
     },
+    "EAI-Pattern Support": {
+      "plain": "- Partially\n- Publish-Subscribe Channel\n    - https://redis.io/topics/pubsub\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Partially",
+              "plain": "Partially\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "Publish-Subscribe Channel",
+              "plain": "Publish-Subscribe Channel\n",
+              "plainChilds": "    - https://redis.io/topics/pubsub\n",
+              "childs": [
+                {
+                  "content": "https://redis.io/topics/pubsub",
+                  "plain": "https://redis.io/topics/pubsub\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    "Features": {
+      "plain": "- Clustering\n    - [@redisCluster]\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Clustering",
+              "plain": "Clustering\n",
+              "plainChilds": "    - [@redisCluster]\n",
+              "childs": [
+                {
+                  "content": ",[@redisCluster]",
+                  "plain": "[@redisCluster]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    },
     "Server Platforms": {
       "plain": "- FreeBSD\n    - [@redisServer]\n- Linux\n    - [@redisServer]\n- Mac Osc X\n    - [@redisServer]\n- NetBSD\n    - [@redisServer]\n- OpenBSD\n    - [@redisServer]\n",
       "childs": {
@@ -2452,34 +2524,6 @@
                 {
                   "content": ",[@redisClients]",
                   "plain": "[@redisClients]\n",
-                  "plainChilds": "",
-                  "childs": []
-                }
-              ]
-            }
-          ]
-        ]
-      }
-    },
-    "EAI-Pattern Support": {
-      "plain": "- Partially\n- Publish-Subscribe Channel\n    - https://redis.io/topics/pubsub\n",
-      "childs": {
-        "0": [
-          [
-            {
-              "content": "Partially",
-              "plain": "Partially\n",
-              "plainChilds": "",
-              "childs": []
-            },
-            {
-              "content": "Publish-Subscribe Channel",
-              "plain": "Publish-Subscribe Channel\n",
-              "plainChilds": "    - https://redis.io/topics/pubsub\n",
-              "childs": [
-                {
-                  "content": "https://redis.io/topics/pubsub",
-                  "plain": "https://redis.io/topics/pubsub\n",
                   "plainChilds": "",
                   "childs": []
                 }
