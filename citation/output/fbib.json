@@ -23,8 +23,10 @@
 "rabbitMQProtocols":"<p>22. RabbitMQ - protocols, <a href=\"https://www.rabbitmq.com/protocol.html\" class=\"uri\">https://www.rabbitmq.com/protocol.html</a>.</p>",
 "rabbitMQRepository":"<p>23. RabbitMQ - repository, <a href=\"https://github.com/rabbitmq/rabbitmq-server/tags\" class=\"uri\">https://github.com/rabbitmq/rabbitmq-server/tags</a>.</p>",
 "rabbitMQServer":"<p>24. RabbitMQ - server platforms, <a href=\"https://www.rabbitmq.com/platforms.html\" class=\"uri\">https://www.rabbitmq.com/platforms.html</a>.</p>",
-"redisLicense":"<p>25. Redis - license, <a href=\"https://redis.io/topics/license\" class=\"uri\">https://redis.io/topics/license</a>.</p>",
-"redisRepository":"<p>26. Redis - repository, <a href=\"https://github.com/antirez/redis/releases\" class=\"uri\">https://github.com/antirez/redis/releases</a>.</p>",
-"siberiteLicense":"<p>27. Siberite - license, <a href=\"https://github.com/bogdanovich/siberite/blob/master/LICENSE\" class=\"uri\">https://github.com/bogdanovich/siberite/blob/master/LICENSE</a>.</p>",
-"siberiteRepository":"<p>28. Siberite - repository, <a href=\"https://github.com/bogdanovich/siberite/releases\" class=\"uri\">https://github.com/bogdanovich/siberite/releases</a>.</p>"
+"redisClients":"<p>25. Redis - clients, <a href=\"https://redis.io/clients\" class=\"uri\">https://redis.io/clients</a>.</p>",
+"redisLicense":"<p>26. Redis - license, <a href=\"https://redis.io/topics/license\" class=\"uri\">https://redis.io/topics/license</a>.</p>",
+"redisRepository":"<p>27. Redis - repository, <a href=\"https://github.com/antirez/redis/releases\" class=\"uri\">https://github.com/antirez/redis/releases</a>.</p>",
+"redisServer":"<p>28. Redis - server, <a href=\"https://github.com/antirez/redis#building-redis\" class=\"uri\">https://github.com/antirez/redis#building-redis</a>.</p>",
+"siberiteLicense":"<p>29. Siberite - license, <a href=\"https://github.com/bogdanovich/siberite/blob/master/LICENSE\" class=\"uri\">https://github.com/bogdanovich/siberite/blob/master/LICENSE</a>.</p>",
+"siberiteRepository":"<p>30. Siberite - repository, <a href=\"https://github.com/bogdanovich/siberite/releases\" class=\"uri\">https://github.com/bogdanovich/siberite/releases</a>.</p>"
 }

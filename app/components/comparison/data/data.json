@@ -1816,15 +1816,674 @@
       }
     },
     "Client languages": {
-      "plain": "- Celery\n",
+      "plain": "- ActionScript\n    - [@redisClients]\n- Bash\n    - [@redisClients]\n- C\n    - [@redisClients]\n- C#\n    - [@redisClients]\n- C++\n    - [@redisClients]\n- Clojure\n    - [@redisClients]\n- Common Lisp\n    - [@redisClients]\n- Crystal\n    - [@redisClients]\n- D\n    - [@redisClients]\n- Dart\n    - [@redisClients]\n- Delphi\n    - [@redisClients]\n- Elixir\n    - [@redisClients]\n- emacs lisp\n    - [@redisClients]\n- Erlang\n    - [@redisClients]\n- Fancy\n    - [@redisClients]\n- gawk\n    - [@redisClients]\n- GNU Prolog\n    - [@redisClients]\n- Go\n    - [@redisClients]\n- Haskell\n    - [@redisClients]\n- Haxe\n    - [@redisClients]\n- Io\n    - [@redisClients]\n- Java\n    - [@redisClients]\n- Julia\n    - [@redisClients]\n- Lasso\n    - [@redisClients]\n- Lua\n    - [@redisClients]\n- Matlab\n    - [@redisClients]\n- mruby\n    - [@redisClients]\n- Nim\n    - [@redisClients]\n- Node.js\n    - [@redisClients]\n- Objective-C\n    - [@redisClients]\n- OCaml\n    - [@redisClients]\n- Pascal\n    - [@redisClients]\n- Perl\n    - [@redisClients]\n- PHP\n    - [@redisClients]\n- PL/SQL\n    - [@redisClients]\n- Pure Data\n    - [@redisClients]\n- Python\n    - [@redisClients]\n- ref\n    - [@redisClients]\n- Racket\n    - [@redisClients]\n- Rebol\n    - [@redisClients]\n- Ruby\n    - [@redisClients]\n- Rust\n    - [@redisClients]\n- Scala\n    - [@redisClients]\n- Scheme\n    - [@redisClients]\n- Smalltalk\n    - [@redisClients]\n- Swift\n    - [@redisClients]\n- Tcl\n    - [@redisClients]\n- VB\n    - [@redisClients]\n- VCL\n    - [@redisClients]\n",
       "childs": {
         "0": [
           [
             {
-              "content": "Celery",
-              "plain": "Celery\n",
+              "content": "ActionScript",
+              "plain": "ActionScript\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Bash",
+              "plain": "Bash\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "C",
+              "plain": "C\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "C#",
+              "plain": "C#\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "C++",
+              "plain": "C++\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Clojure",
+              "plain": "Clojure\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Common Lisp",
+              "plain": "Common Lisp\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Crystal",
+              "plain": "Crystal\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "D",
+              "plain": "D\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Dart",
+              "plain": "Dart\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Delphi",
+              "plain": "Delphi\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Elixir",
+              "plain": "Elixir\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "emacs lisp",
+              "plain": "emacs lisp\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Erlang",
+              "plain": "Erlang\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Fancy",
+              "plain": "Fancy\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "gawk",
+              "plain": "gawk\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "GNU Prolog",
+              "plain": "GNU Prolog\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Go",
+              "plain": "Go\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Haskell",
+              "plain": "Haskell\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Haxe",
+              "plain": "Haxe\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Io",
+              "plain": "Io\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Java",
+              "plain": "Java\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Julia",
+              "plain": "Julia\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Lasso",
+              "plain": "Lasso\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Lua",
+              "plain": "Lua\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Matlab",
+              "plain": "Matlab\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "mruby",
+              "plain": "mruby\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Nim",
+              "plain": "Nim\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Node.js",
+              "plain": "Node.js\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Objective-C",
+              "plain": "Objective-C\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "OCaml",
+              "plain": "OCaml\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Pascal",
+              "plain": "Pascal\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Perl",
+              "plain": "Perl\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "PHP",
+              "plain": "PHP\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "PL/SQL",
+              "plain": "PL/SQL\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Pure Data",
+              "plain": "Pure Data\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Python",
+              "plain": "Python\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "ref",
+              "plain": "ref\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Racket",
+              "plain": "Racket\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Rebol",
+              "plain": "Rebol\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Ruby",
+              "plain": "Ruby\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Rust",
+              "plain": "Rust\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Scala",
+              "plain": "Scala\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Scheme",
+              "plain": "Scheme\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Smalltalk",
+              "plain": "Smalltalk\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Swift",
+              "plain": "Swift\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Tcl",
+              "plain": "Tcl\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "VB",
+              "plain": "VB\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "VCL",
+              "plain": "VCL\n",
+              "plainChilds": "    - [@redisClients]\n",
+              "childs": [
+                {
+                  "content": ",[@redisClients]",
+                  "plain": "[@redisClients]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    "EAI-Pattern Support": {
+      "plain": "- Partially\n- Publish-Subscribe Channel\n    - https://redis.io/topics/pubsub\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Partially",
+              "plain": "Partially\n",
               "plainChilds": "",
               "childs": []
+            },
+            {
+              "content": "Publish-Subscribe Channel",
+              "plain": "Publish-Subscribe Channel\n",
+              "plainChilds": "    - https://redis.io/topics/pubsub\n",
+              "childs": [
+                {
+                  "content": "https://redis.io/topics/pubsub",
+                  "plain": "https://redis.io/topics/pubsub\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
             }
           ]
         ]
