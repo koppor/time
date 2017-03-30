@@ -478,7 +478,7 @@
     }
   },
   {
-    "tag": "apollo - http://activemq.apache.org/apollo/",
+    "tag": "Apollo - http://activemq.apache.org/apollo/",
     "descr": "ActiveMQ's next generation of messaging.",
     "Description": {
       "plain": "ActiveMQ apollo is a faster, more reliable, easier to maintain messaging broker built from the foundations of the original ActiveMQ. It accomplishes this using a radically different threading and message dispatching architecture. Like ActiveMQ, apollo is a multi-Protocol broker and supports STOMP, AMQP, MQTT, Openwire, SSL, and WebSockets.",
@@ -1091,6 +1091,69 @@
                   "childs": []
                 }
               ]
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "tag": "Celery - http://www.celeryproject.org/",
+    "descr": "Celery: Distributed Task Queue",
+    "Description": {
+      "plain": "Celery is an asynchronous task queue/job queue based on distributed message passing. It is focused on real-time operation, but supports scheduling as well.\nThe execution units, called tasks, are executed concurrently on a single or more worker servers using multiprocessing, Eventlet, or gevent. Tasks can execute asynchronously (in the background) or synchronously (wait until ready).\n\nCelery is used in production systems to process millions of tasks a day.",
+      "childs": {
+        "0": [
+          "Celery is an asynchronous task queue/job queue based on distributed message passing. It is focused on real-time operation, but supports scheduling as well. The execution units, called tasks, are executed concurrently on a single or more worker servers using multiprocessing, Eventlet, or gevent. Tasks can execute asynchronously (in the background) or synchronously (wait until ready).",
+          "Celery is used in production systems to process millions of tasks a day."
+        ]
+      }
+    },
+    "License": {
+      "plain": "- BSD-3-Clause\n    - [@celeryLicense]\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "BSD-3-Clause",
+              "plain": "BSD-3-Clause\n",
+              "plainChilds": "    - [@celeryLicense]\n",
+              "childs": [
+                {
+                  "content": ",[@celeryLicense]",
+                  "plain": "[@celeryLicense]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    "Development status": {
+      "plain": "- Active\n    - Last version: 4.0.2 on 2016-12-16 [@celeryVersions]\n- Stable\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Active",
+              "plain": "Active\n",
+              "plainChilds": "    - Last version: 4.0.2 on 2016-12-16 [@celeryVersions]\n",
+              "childs": [
+                {
+                  "content": "Last version: 4.0.2 on 2016-12-16 [@celeryVersions]",
+                  "plain": "Last version: 4.0.2 on 2016-12-16 [@celeryVersions]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Stable",
+              "plain": "Stable\n",
+              "plainChilds": "",
+              "childs": []
             }
           ]
         ]
