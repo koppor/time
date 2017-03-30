@@ -1648,6 +1648,68 @@
     }
   },
   {
+    "tag": "Kestrel - https://github.com/twitter-archive/kestrel",
+    "descr": "in-memory, distributed job queue",
+    "Description": {
+      "plain": "Kestrel is based on Blaine Cook's starling simple, distributed message queue, with added features and bulletproofing, as well as the scalability offered by actors and the JVM.",
+      "childs": {
+        "0": [
+          "Kestrel is based on Blaine Cook's starling simple, distributed message queue, with added features and bulletproofing, as well as the scalability offered by actors and the JVM."
+        ]
+      }
+    },
+    "License": {
+      "plain": "- Apache 2.0\n    - [@kestrelLicense]\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Apache 2.0",
+              "plain": "Apache 2.0\n",
+              "plainChilds": "    - [@kestrelLicense]\n",
+              "childs": [
+                {
+                  "content": ",[@kestrelLicense]",
+                  "plain": "[@kestrelLicense]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    "Development status": {
+      "plain": "- Stale\n    - Last version: 2.4.1 on 2012-11-02 [@kestrelVersions]\n- Stable\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Stale",
+              "plain": "Stale\n",
+              "plainChilds": "    - Last version: 2.4.1 on 2012-11-02 [@kestrelVersions]\n",
+              "childs": [
+                {
+                  "content": "Last version: 2.4.1 on 2012-11-02 [@kestrelVersions]",
+                  "plain": "Last version: 2.4.1 on 2012-11-02 [@kestrelVersions]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Stable",
+              "plain": "Stable\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
     "tag": "RabbitMQ - https://www.rabbitmq.com/",
     "descr": "ActiveMQ's next generation of messaging.",
     "Description": {
