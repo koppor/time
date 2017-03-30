@@ -30,5 +30,7 @@
 "redisRepository":"<p>29. Redis - repository, <a href=\"https://github.com/antirez/redis/releases\" class=\"uri\">https://github.com/antirez/redis/releases</a>.</p>",
 "redisServer":"<p>30. Redis - server, <a href=\"https://github.com/antirez/redis#building-redis\" class=\"uri\">https://github.com/antirez/redis#building-redis</a>.</p>",
 "siberiteLicense":"<p>31. Siberite - license, <a href=\"https://github.com/bogdanovich/siberite/blob/master/LICENSE\" class=\"uri\">https://github.com/bogdanovich/siberite/blob/master/LICENSE</a>.</p>",
-"siberiteRepository":"<p>32. Siberite - repository, <a href=\"https://github.com/bogdanovich/siberite/releases\" class=\"uri\">https://github.com/bogdanovich/siberite/releases</a>.</p>"
+"siberiteRepository":"<p>32. Siberite - repository, <a href=\"https://github.com/bogdanovich/siberite/releases\" class=\"uri\">https://github.com/bogdanovich/siberite/releases</a>.</p>",
+"zeroMQLicense":"<p>33. ZeroMQ - license, <a href=\"http://zeromq.org/area:licensing\" class=\"uri\">http://zeromq.org/area:licensing</a>.</p>",
+"zeroMQVersions":"<p>34. ZeroMQ - versions, <a href=\"http://zeromq.org/area:download\" class=\"uri\">http://zeromq.org/area:download</a>.</p>"
 }

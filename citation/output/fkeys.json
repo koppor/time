@@ -29,4 +29,6 @@
  "redisServer":"[30]",
  "redisClients":"[26]",
  "redisCluster":"[27]",
- "rabbitMQCluster":"[21]" }
+ "rabbitMQCluster":"[21]",
+ "zeroMQLicense":"[33]",
+ "zeroMQVersions":"[34]" }
