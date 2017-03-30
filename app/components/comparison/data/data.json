@@ -1405,6 +1405,68 @@
     }
   },
   {
+    "tag": "Gearmen - http://gearman.org/",
+    "descr": "in-memory, distributed job queue",
+    "Description": {
+      "plain": "Gearman provides a generic application framework to farm out work to other machines or processes that are better suited to do the work. It allows you to do work in parallel, to load balance processing, and to call functions between languages. It can be used in a variety of applications, from high-availability web sites to the transport of database replication events. In other words, it is the nervous system for how distributed processing communicates. A few strong points about Gearman:",
+      "childs": {
+        "0": [
+          "Gearman provides a generic application framework to farm out work to other machines or processes that are better suited to do the work. It allows you to do work in parallel, to load balance processing, and to call functions between languages. It can be used in a variety of applications, from high-availability web sites to the transport of database replication events. In other words, it is the nervous system for how distributed processing communicates. A few strong points about Gearman:"
+        ]
+      }
+    },
+    "License": {
+      "plain": "- BSD-3-Clause\n    - [@disqueLicense]\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "BSD-3-Clause",
+              "plain": "BSD-3-Clause\n",
+              "plainChilds": "    - [@disqueLicense]\n",
+              "childs": [
+                {
+                  "content": ",[@disqueLicense]",
+                  "plain": "[@disqueLicense]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    "Development status": {
+      "plain": "- Stale\n    - Last version: 1.0 RC 1 on 2016-01-02 [@disqueVersions]\n- Experimental\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Stale",
+              "plain": "Stale\n",
+              "plainChilds": "    - Last version: 1.0 RC 1 on 2016-01-02 [@disqueVersions]\n",
+              "childs": [
+                {
+                  "content": "Last version: 1.0 RC 1 on 2016-01-02 [@disqueVersions]",
+                  "plain": "Last version: 1.0 RC 1 on 2016-01-02 [@disqueVersions]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Experimental",
+              "plain": "Experimental\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
     "tag": "RabbitMQ - https://www.rabbitmq.com/",
     "descr": "ActiveMQ's next generation of messaging.",
     "Description": {
