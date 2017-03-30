@@ -1099,7 +1099,7 @@
   },
   {
     "tag": "Celery - http://www.celeryproject.org/",
-    "descr": "Celery: Distributed Task Queue",
+    "descr": "Distributed Task Queue",
     "Description": {
       "plain": "Celery is an asynchronous task queue/job queue based on distributed message passing. It is focused on real-time operation, but supports scheduling as well.\nThe execution units, called tasks, are executed concurrently on a single or more worker servers using multiprocessing, Eventlet, or gevent. Tasks can execute asynchronously (in the background) or synchronously (wait until ready).\n\nCelery is used in production systems to process millions of tasks a day.",
       "childs": {
@@ -1280,14 +1280,14 @@
     }
   },
   {
-    "tag": "Delayed::Job - https://github.com/collectiveidea/delayed_job",
-    "descr": "Celery: Distributed Task Queue",
+    "tag": "DelayedJob - https://github.com/collectiveidea/delayed_job",
+    "descr": "encapsulates the common pattern of asynchronously executing longer tasks in the background",
     "Description": {
-      "plain": "Celery is an asynchronous task queue/job queue based on distributed message passing. It is focused on real-time operation, but supports scheduling as well.\nThe execution units, called tasks, are executed concurrently on a single or more worker servers using multiprocessing, Eventlet, or gevent. Tasks can execute asynchronously (in the background) or synchronously (wait until ready).\n\nCelery is used in production systems to process millions of tasks a day.",
+      "plain": "Delayed::Job (or DJ) encapsulates the common pattern of asynchronously executing longer tasks in the background.\n\nIt is a direct extraction from Shopify where the job table is responsible for a multitude of core tasks. Amongst those tasks are:\n- sending massive newsletters\n- image resizing\n- http downloads\n- updating smart collections\n- updating solr, our search server, after product changes\n- batch imports\n- spam checks",
       "childs": {
         "0": [
-          "Celery is an asynchronous task queue/job queue based on distributed message passing. It is focused on real-time operation, but supports scheduling as well. The execution units, called tasks, are executed concurrently on a single or more worker servers using multiprocessing, Eventlet, or gevent. Tasks can execute asynchronously (in the background) or synchronously (wait until ready).",
-          "Celery is used in production systems to process millions of tasks a day."
+          "Delayed::Job (or DJ) encapsulates the common pattern of asynchronously executing longer tasks in the background.",
+          "It is a direct extraction from Shopify where the job table is responsible for a multitude of core tasks. Amongst those tasks are: - sending massive newsletters - image resizing - http downloads - updating smart collections - updating solr, our search server, after product changes - batch imports - spam checks"
         ]
       }
     },
@@ -1334,6 +1334,68 @@
             {
               "content": "Stable",
               "plain": "Stable\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "tag": "Disque - https://github.com/antirez/disque",
+    "descr": "in-memory, distributed job queue",
+    "Description": {
+      "plain": "Disque is an ongoing experiment to build a distributed, in-memory, message broker. Its goal is to capture the essence of the 'Redis as a jobs queue' use case, which is usually implemented using blocking list operations, and move it into an ad-hoc, self-contained, scalable, and fault tolerant design, with simple to understand properties and guarantees, but still resembling Redis in terms of simplicity, performance, and implementation as a C non-blocking networked server.",
+      "childs": {
+        "0": [
+          "Disque is an ongoing experiment to build a distributed, in-memory, message broker. Its goal is to capture the essence of the 'Redis as a jobs queue' use case, which is usually implemented using blocking list operations, and move it into an ad-hoc, self-contained, scalable, and fault tolerant design, with simple to understand properties and guarantees, but still resembling Redis in terms of simplicity, performance, and implementation as a C non-blocking networked server."
+        ]
+      }
+    },
+    "License": {
+      "plain": "- BSD-3-Clause\n    - [@disqueLicense]\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "BSD-3-Clause",
+              "plain": "BSD-3-Clause\n",
+              "plainChilds": "    - [@disqueLicense]\n",
+              "childs": [
+                {
+                  "content": ",[@disqueLicense]",
+                  "plain": "[@disqueLicense]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    "Development status": {
+      "plain": "- Stale\n    - Last version: 1.0 RC 1 on 2016-01-02 [@disqueVersions]\n- Experimental\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Stale",
+              "plain": "Stale\n",
+              "plainChilds": "    - Last version: 1.0 RC 1 on 2016-01-02 [@disqueVersions]\n",
+              "childs": [
+                {
+                  "content": "Last version: 1.0 RC 1 on 2016-01-02 [@disqueVersions]",
+                  "plain": "Last version: 1.0 RC 1 on 2016-01-02 [@disqueVersions]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Experimental",
+              "plain": "Experimental\n",
               "plainChilds": "",
               "childs": []
             }
