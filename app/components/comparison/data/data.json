@@ -1405,7 +1405,7 @@
     }
   },
   {
-    "tag": "Gearmen - http://gearman.org/",
+    "tag": "Gearman - http://gearman.org/",
     "descr": "in-memory, distributed job queue",
     "Description": {
       "plain": "Gearman provides a generic application framework to farm out work to other machines or processes that are better suited to do the work. It allows you to do work in parallel, to load balance processing, and to call functions between languages. It can be used in a variety of applications, from high-availability web sites to the transport of database replication events. In other words, it is the nervous system for how distributed processing communicates. A few strong points about Gearman:",
@@ -1416,18 +1416,18 @@
       }
     },
     "License": {
-      "plain": "- BSD-3-Clause\n    - [@disqueLicense]\n",
+      "plain": "- BSD-3-Clause\n    - [@gearmanLicense]\n",
       "childs": {
         "0": [
           [
             {
               "content": "BSD-3-Clause",
               "plain": "BSD-3-Clause\n",
-              "plainChilds": "    - [@disqueLicense]\n",
+              "plainChilds": "    - [@gearmanLicense]\n",
               "childs": [
                 {
-                  "content": ",[@disqueLicense]",
-                  "plain": "[@disqueLicense]\n",
+                  "content": ",[@gearmanLicense]",
+                  "plain": "[@gearmanLicense]\n",
                   "plainChilds": "",
                   "childs": []
                 }
@@ -1438,26 +1438,88 @@
       }
     },
     "Development status": {
-      "plain": "- Stale\n    - Last version: 1.0 RC 1 on 2016-01-02 [@disqueVersions]\n- Experimental\n",
+      "plain": "- Stale\n    - Last version: 1.1.15 on 2017-02-18 [@gearmanVersions]\n- Stable\n",
       "childs": {
         "0": [
           [
             {
               "content": "Stale",
               "plain": "Stale\n",
-              "plainChilds": "    - Last version: 1.0 RC 1 on 2016-01-02 [@disqueVersions]\n",
+              "plainChilds": "    - Last version: 1.1.15 on 2017-02-18 [@gearmanVersions]\n",
               "childs": [
                 {
-                  "content": "Last version: 1.0 RC 1 on 2016-01-02 [@disqueVersions]",
-                  "plain": "Last version: 1.0 RC 1 on 2016-01-02 [@disqueVersions]\n",
+                  "content": "Last version: 1.1.15 on 2017-02-18 [@gearmanVersions]",
+                  "plain": "Last version: 1.1.15 on 2017-02-18 [@gearmanVersions]\n",
                   "plainChilds": "",
                   "childs": []
                 }
               ]
             },
             {
-              "content": "Experimental",
-              "plain": "Experimental\n",
+              "content": "Stable",
+              "plain": "Stable\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "tag": "HornetQ - http://hornetq.jboss.org/",
+    "descr": "open source project to build a multi-protocol, embeddable, very high performance, clustered, asynchronous messaging system",
+    "Description": {
+      "plain": "HornetQ is an open source project to build a multi-protocol, embeddable, very high performance, clustered, asynchronous messaging system.",
+      "childs": {
+        "0": [
+          "HornetQ is an open source project to build a multi-protocol, embeddable, very high performance, clustered, asynchronous messaging system."
+        ]
+      }
+    },
+    "License": {
+      "plain": "- Apache 2.0\n    - [@hornetQLicense]\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Apache 2.0",
+              "plain": "Apache 2.0\n",
+              "plainChilds": "    - [@hornetQLicense]\n",
+              "childs": [
+                {
+                  "content": ",[@hornetQLicense]",
+                  "plain": "[@hornetQLicense]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    "Development status": {
+      "plain": "- Active\n    - Last version: 2.3.25 SP18 on 2017-03-28 [@hornetQVersions]\n- Stable\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Active",
+              "plain": "Active\n",
+              "plainChilds": "    - Last version: 2.3.25 SP18 on 2017-03-28 [@hornetQVersions]\n",
+              "childs": [
+                {
+                  "content": "Last version: 2.3.25 SP18 on 2017-03-28 [@hornetQVersions]",
+                  "plain": "Last version: 2.3.25 SP18 on 2017-03-28 [@hornetQVersions]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Stable",
+              "plain": "Stable\n",
               "plainChilds": "",
               "childs": []
             }
