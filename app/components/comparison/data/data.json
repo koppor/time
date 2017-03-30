@@ -1529,6 +1529,69 @@
     }
   },
   {
+    "tag": "Huey - https://github.com/coleifer/huey",
+    "descr": "a little task queue for pytho",
+    "Description": {
+      "plain": "a lightweight alternative.\n- written in python\n- only dependency is the Python Redis client\n\nsupports:\n- multi-process, multi-thread or greenlet task execution models\n- schedule tasks to execute at a given time, or after a given delay\n- schedule recurring tasks, like a crontab\n- retry tasks that fail automatically\n- task result storage",
+      "childs": {
+        "0": [
+          "a lightweight alternative. - written in python - only dependency is the Python Redis client",
+          "supports: - multi-process, multi-thread or greenlet task execution models - schedule tasks to execute at a given time, or after a given delay - schedule recurring tasks, like a crontab - retry tasks that fail automatically - task result storage"
+        ]
+      }
+    },
+    "License": {
+      "plain": "- MIT\n    - [@hueyLicense]\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "MIT",
+              "plain": "MIT\n",
+              "plainChilds": "    - [@hueyLicense]\n",
+              "childs": [
+                {
+                  "content": ",[@hueyLicense]",
+                  "plain": "[@hueyLicense]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    "Development status": {
+      "plain": "- Active\n    - Last version: 1.2.3 on 2017-02-17 [@hueyVersions]\n- Stable\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Active",
+              "plain": "Active\n",
+              "plainChilds": "    - Last version: 1.2.3 on 2017-02-17 [@hueyVersions]\n",
+              "childs": [
+                {
+                  "content": "Last version: 1.2.3 on 2017-02-17 [@hueyVersions]",
+                  "plain": "Last version: 1.2.3 on 2017-02-17 [@hueyVersions]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Stable",
+              "plain": "Stable\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
     "tag": "RabbitMQ - https://www.rabbitmq.com/",
     "descr": "ActiveMQ's next generation of messaging.",
     "Description": {
