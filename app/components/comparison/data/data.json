@@ -1592,6 +1592,62 @@
     }
   },
   {
+    "tag": "Apache Kafka - http://kafka.apache.org/",
+    "descr": "distributed streaming platform",
+    "Description": {
+      "plain": "Kafka™ is used for building real-time data pipelines and streaming apps. It is horizontally scalable, fault-tolerant, wicked fast, and runs in production in thousands of companies.",
+      "childs": {
+        "0": [
+          "Kafka™ is used for building real-time data pipelines and streaming apps. It is horizontally scalable, fault-tolerant, wicked fast, and runs in production in thousands of companies."
+        ]
+      }
+    },
+    "License": {
+      "plain": "- Apache 2.0\n    - [@kafkaLicense]\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Apache 2.0",
+              "plain": "Apache 2.0\n",
+              "plainChilds": "    - [@kafkaLicense]\n",
+              "childs": [
+                {
+                  "content": ",[@kafkaLicense]",
+                  "plain": "[@kafkaLicense]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    "Development status": {
+      "plain": "- Active\n    - Last version: 0.10.2.0 on 2017-02-21 [@disqueVersions]\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Active",
+              "plain": "Active\n",
+              "plainChilds": "    - Last version: 0.10.2.0 on 2017-02-21 [@disqueVersions]\n",
+              "childs": [
+                {
+                  "content": "Last version: 0.10.2.0 on 2017-02-21 [@disqueVersions]",
+                  "plain": "Last version: 0.10.2.0 on 2017-02-21 [@disqueVersions]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
     "tag": "RabbitMQ - https://www.rabbitmq.com/",
     "descr": "ActiveMQ's next generation of messaging.",
     "Description": {
