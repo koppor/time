@@ -79,7 +79,7 @@
     {
         "name": "Client languages",
         "tag": "Client languages",
-        "display": true,
+        "display": false,
         "type": {
             "tag": "label",
             "class": "label label-info",

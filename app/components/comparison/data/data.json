@@ -1280,6 +1280,69 @@
     }
   },
   {
+    "tag": "Delayed::Job - https://github.com/collectiveidea/delayed_job",
+    "descr": "Celery: Distributed Task Queue",
+    "Description": {
+      "plain": "Celery is an asynchronous task queue/job queue based on distributed message passing. It is focused on real-time operation, but supports scheduling as well.\nThe execution units, called tasks, are executed concurrently on a single or more worker servers using multiprocessing, Eventlet, or gevent. Tasks can execute asynchronously (in the background) or synchronously (wait until ready).\n\nCelery is used in production systems to process millions of tasks a day.",
+      "childs": {
+        "0": [
+          "Celery is an asynchronous task queue/job queue based on distributed message passing. It is focused on real-time operation, but supports scheduling as well. The execution units, called tasks, are executed concurrently on a single or more worker servers using multiprocessing, Eventlet, or gevent. Tasks can execute asynchronously (in the background) or synchronously (wait until ready).",
+          "Celery is used in production systems to process millions of tasks a day."
+        ]
+      }
+    },
+    "License": {
+      "plain": "- MIT\n    - [@delayedJobLicense]\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "MIT",
+              "plain": "MIT\n",
+              "plainChilds": "    - [@delayedJobLicense]\n",
+              "childs": [
+                {
+                  "content": ",[@delayedJobLicense]",
+                  "plain": "[@delayedJobLicense]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    "Development status": {
+      "plain": "- Active\n    - Last version: 4.1.2n 2016-05-16 [@delayedJobVersions]\n- Stable\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Active",
+              "plain": "Active\n",
+              "plainChilds": "    - Last version: 4.1.2n 2016-05-16 [@delayedJobVersions]\n",
+              "childs": [
+                {
+                  "content": "Last version: 4.1.2n 2016-05-16 [@delayedJobVersions]",
+                  "plain": "Last version: 4.1.2n 2016-05-16 [@delayedJobVersions]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "Stable",
+              "plain": "Stable\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
     "tag": "RabbitMQ - https://www.rabbitmq.com/",
     "descr": "ActiveMQ's next generation of messaging.",
     "Description": {
