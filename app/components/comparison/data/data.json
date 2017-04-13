@@ -134,7 +134,7 @@
       }
     },
     "Protocol": {
-      "plain": "- AMQP\n    - [@activeMQProtocols]\n- AUTO\n    - [@activeMQProtocols]\n- MQTT\n    - [@activeMQProtocols]\n- OpenWire\n    - [@activeMQProtocols]\n- REST\n    - [@activeMQProtocols]\n- RSS and Atom\n    - [@activeMQProtocols]\n- STOMP\n    - [@activeMQProtocols]\n- WSIF\n    - [@activeMQProtocols]\n- WS Notification\n    - [@activeMQProtocols]\n- XMPP\n    - [@activeMQProtocols]\n",
+      "plain": "- AMQP\n    - [@activeMQProtocols]\n- AUTO\n    - [@activeMQProtocols]\n- MQTT\n    - [@activeMQProtocols]\n- OpenWire\n    - [@activeMQProtocols]\n- STOMP\n    - [@activeMQProtocols]\n",
       "childs": {
         "0": [
           [
@@ -191,73 +191,8 @@
               ]
             },
             {
-              "content": "REST",
-              "plain": "REST\n",
-              "plainChilds": "    - [@activeMQProtocols]\n",
-              "childs": [
-                {
-                  "content": ",[@activeMQProtocols]",
-                  "plain": "[@activeMQProtocols]\n",
-                  "plainChilds": "",
-                  "childs": []
-                }
-              ]
-            },
-            {
-              "content": "RSS and Atom",
-              "plain": "RSS and Atom\n",
-              "plainChilds": "    - [@activeMQProtocols]\n",
-              "childs": [
-                {
-                  "content": ",[@activeMQProtocols]",
-                  "plain": "[@activeMQProtocols]\n",
-                  "plainChilds": "",
-                  "childs": []
-                }
-              ]
-            },
-            {
               "content": "STOMP",
               "plain": "STOMP\n",
-              "plainChilds": "    - [@activeMQProtocols]\n",
-              "childs": [
-                {
-                  "content": ",[@activeMQProtocols]",
-                  "plain": "[@activeMQProtocols]\n",
-                  "plainChilds": "",
-                  "childs": []
-                }
-              ]
-            },
-            {
-              "content": "WSIF",
-              "plain": "WSIF\n",
-              "plainChilds": "    - [@activeMQProtocols]\n",
-              "childs": [
-                {
-                  "content": ",[@activeMQProtocols]",
-                  "plain": "[@activeMQProtocols]\n",
-                  "plainChilds": "",
-                  "childs": []
-                }
-              ]
-            },
-            {
-              "content": "WS Notification",
-              "plain": "WS Notification\n",
-              "plainChilds": "    - [@activeMQProtocols]\n",
-              "childs": [
-                {
-                  "content": ",[@activeMQProtocols]",
-                  "plain": "[@activeMQProtocols]\n",
-                  "plainChilds": "",
-                  "childs": []
-                }
-              ]
-            },
-            {
-              "content": "XMPP",
-              "plain": "XMPP\n",
               "plainChilds": "    - [@activeMQProtocols]\n",
               "childs": [
                 {
