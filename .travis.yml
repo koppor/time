@@ -5,14 +5,15 @@ env:
 - GIT_DEPLOY_DIR: www
 script: npm test
 after_success:
-- git remote set-url origin git@github.com:ultimate-comparisons/ultimate-comparison-BASE.git
-- openssl aes-256-cbc -K $encrypted_08460152d0a3_key -iv $encrypted_08460152d0a3_iv -in id_rsa.enc -out id_rsa -d
+- git remote set-url origin git@github.com:FachstudieBTZ/ultimate-message-broker-comparison.git
+- openssl aes-256-cbc -K $encrypted_ed1202cbcdcf_key -iv $encrypted_ed1202cbcdcf_iv -in id_rsa.enc -out id_rsa -d
 - eval "$(ssh-agent -s)"
 - chmod 600 id_rsa
 - ssh-add id_rsa
 - "./deploy.sh"
 - "./update.sh"
 before_install:
+- openssl aes-256-cbc -K $encrypted_ed1202cbcdcf_key -iv $encrypted_ed1202cbcdcf_iv -in id_rsa.enc -out id_rsa -d
 - wget https://github.com/jgm/pandoc/releases/download/1.17.2/pandoc-1.17.2-1-amd64.deb
 - sudo dpkg -i pandoc-1.17.2-1-amd64.deb
 - rm pandoc-1.17.2-1-amd64.deb
